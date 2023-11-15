@@ -1,0 +1,21 @@
+@import '../abstract/base';
+@import '../abstract/variables';
+
+footer {
+  display: block;
+  text-align: center;
+  font-size: $paragraph;
+
+  background-color: $isa-rouge-dark;
+
+  p {
+    margin: 0;
+    padding: 16px 0;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+}
+

@@ -1,0 +1,274 @@
+@import '../abstract/base';
+@import '../abstract/variables';
+
+
+.main_a-venir {
+  display: block;
+  transform: ease 200ms;
+
+  .main_image {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+
+    background-image: url('../assets/Mobile/imgs/Douleurs_Menstruelles.png');
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+  .main_text-box{
+    z-index: 5;
+    width: 100%;
+    height: 60%;
+    position: relative;
+    color: $isa-white;
+    
+    padding: 32px;
+
+
+    background-image: url('../assets/Mobile/imgs/Douleurs_Menstruelles.png');
+    background-position: center;
+    background-size: cover;
+    background-color: #321f1c52;
+
+    .description {
+
+      h2 {
+        margin: auto;
+        line-height: 1.25em;
+        letter-spacing: .1em;
+        font-size: 32px;
+        font-weight: $medium;
+      }
+
+      .normal_text {
+        font-size: $paragraph-lead;
+      }
+
+      .little_text {
+        font-size: 16px;
+        margin: 0;
+        text-transform: uppercase;
+
+      }
+      
+    }
+
+    .main_link{
+      margin-top: 42px;
+
+    
+      .main_link_button {
+        display: block;
+        text-align: center;
+        color: $isa-rouge-dark;
+        font-weight: $bold;
+        font-size: 18px;
+        letter-spacing: .1em;
+
+        background-color: $isa-white;
+        box-shadow: 5px 3px 5px 0 #321f1c52;
+
+        border-radius: 12px;
+        padding: 24px;
+        
+        transition: ease 50ms;
+
+        &:hover {
+          background-color: $isa-rouge-light;
+          color: $isa-white;
+        }
+
+        &:active {
+          background-color: $isa-rouge-dark;
+          color: $isa-white;
+          box-shadow: 3px 2px 5px 0 #321f1c52;
+        }
+      }
+    }
+
+  }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+ .main_a-venir {
+    display: block;
+    transform: ease 200ms;
+  
+    .main_image {
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 60%;
+  
+      background-image: url('../assets/Mobile/imgs/Douleurs_Menstruelles.png');
+      background-position: center;
+      background-size: cover;
+      
+    }
+  
+    .main_text-box{
+      z-index: 5;
+      width: 100%;
+      height: 60%;
+      position: relative;
+      color: $isa-white;
+      padding: 116px;
+
+      background: url('../assets/Mobile/imgs/Douleurs_Menstruelles.png') no-repeat;
+      background-position: center;
+      background-size: cover;
+      
+  
+      .description {
+        
+        
+
+        h2 {
+          margin: auto;
+          line-height: 1.25em;
+          font-size: 42px;
+        }
+
+        .normal_text {
+          font-size: $paragraph-lead;
+        }
+
+        .little_text {
+          font-size: 16px;
+          margin: 0;
+          text-transform: uppercase;
+
+        }
+
+
+        
+      }
+  
+      .main_link{
+        margin-top: 42px;
+  
+      
+        .main_link_button {
+          display: block;
+          text-align: center;
+          color: $isa-rouge-dark;
+          font-weight: $bold;
+          font-size: $paragraph-lead;
+          letter-spacing: .1em;
+  
+          background-color: $isa-white;
+  
+          border-radius: 12px;
+          padding: 24px;
+          
+          transition: ease 200ms;
+  
+          &:hover {
+            background-color: $isa-rouge-light;
+            color: $isa-white;
+          }
+  
+          &:active {
+            background-color: $isa-rouge-dark;
+            color: $isa-white;
+          }
+        }
+      }
+  
+    }
+  
+  }
+
+}
+@media screen and (min-width:1440px) {
+ .main_a-venir {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    .main_image {
+      display: block;
+      position: relative;
+      width: 50%;
+      height: calc(100vh - 96px);
+      background-image: url('../assets/Desktop/imgs/Douleurs_Menstruelles.png');
+      background-position: center;
+      background-size: cover;
+      
+    }
+
+    .main_text-box{
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      align-items: center;
+      background-color: transparent;
+      color: $isa-rouge-dark;
+      width: 50%;
+      height: 100%;
+      padding: 64px ;
+      background-image: none;
+
+
+      .description {
+
+        h2 {
+          margin: auto;
+          line-height: 1.25em;
+          font-size: 56px;
+        }
+  
+        .normal_text {
+          font-size: $paragraph-lead;
+        }
+
+        .little_text {
+          font-size: 16px;
+          margin: 0;
+          text-transform: uppercase;
+
+        }
+        
+      }
+
+      .main_link{
+        margin-top: 24px;
+
+      
+        .main_link_button {
+          color: $isa-white;
+          font-weight: $bold;
+          font-size: $paragraph-lead;
+          letter-spacing: .1em;
+
+          background-color: $isa-rouge-medium;
+
+          border-radius: 12px;
+          padding: 24px;
+          
+          transition: ease 200ms;
+
+          &:hover {
+            background-color: $isa-rouge-light;
+            color: $isa-white;
+    
+          }
+
+          &:active {
+            background-color: $isa-rouge-dark;
+            color: $isa-white;
+          }
+        }
+      }
+
+    }
+
+
+  }
+
+}

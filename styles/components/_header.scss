@@ -1,0 +1,291 @@
+@import '../abstract/base';
+@import '../abstract/variables';
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $isa-rouge-medium;
+  height: auto;
+  justify-content: center;
+  align-items: stretch;
+  padding: 32px 64px;
+  
+
+
+  .header_logo {
+    width: 200px;
+    margin-bottom: 32px;
+
+
+
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      content: url('../assets/icons/logo_header_left-icon.svg');
+    }
+  }
+
+  .header_infos_box {
+    
+    margin-left: 42px;
+
+    ul{
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      
+      height: 100%;
+
+      li {
+
+        margin-top: .5em;
+        a {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          letter-spacing: 0.1em;
+          font-size: $paragraph;
+          width: 17em;
+          padding: 1em 0;
+        }
+
+
+
+        #tel::before {
+          width: 21px;
+          
+          margin-right: 8px;
+          content: url('../assets/icons/tel-icon.svg');  
+
+        }
+
+        #email::before {
+          width: 24px;
+          
+          margin-right: 8px;
+          content: url('../assets/icons/email-icon.svg');  
+
+        }
+        #adress{
+          max-width: 17em;
+        }
+        #adress::before {
+          width:36px;
+          
+          margin-right: 8px;
+          content: url('../assets/icons/adress-icon.svg');  
+
+        }
+
+
+        #insta::before {
+          width: 28px;
+          
+          margin-left: 40%;
+          content: url('../assets/icons/istagram-icon.svg');  
+
+        }
+      }
+
+
+    } 
+  }
+}
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $isa-rouge-medium;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 32px 64px;
+    
+  
+  
+    .header_logo {
+      width: 200px;
+      margin-bottom: 32px;
+  
+  
+  
+      a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        content: url('../assets/icons/logo_header_left-icon.svg');
+      }
+    }
+  
+    .header_infos_box {
+      
+      margin-left: 42px;
+  
+      ul{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  
+        
+        height: 100%;
+  
+        li {
+  
+          margin-top: .5em;
+          a {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            letter-spacing: 0.1em;
+            font-size: $paragraph;
+            width: 17em;
+            padding: 1em 0;
+          }
+  
+  
+  
+          #tel::before {
+            width: 21px;
+            
+            margin-right: 8px;
+            content: url('../assets/icons/tel-icon.svg');  
+  
+          }
+  
+          #email::before {
+            width: 24px;
+            
+            margin-right: 8px;
+            content: url('../assets/icons/email-icon.svg');  
+  
+          }
+          #adress{
+            max-width: 17em;
+          }
+          #adress::before {
+            width:36px;
+            
+            margin-right: 8px;
+            content: url('../assets/icons/adress-icon.svg');  
+  
+          }
+  
+  
+          #insta::before {
+            width: 28px;
+            
+            margin-left: 40%;
+            content: url('../assets/icons/istagram-icon.svg');  
+  
+          }
+        }
+  
+  
+      } 
+    }
+  }
+}
+
+@media screen and (min-width:1440px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $isa-rouge-medium;
+    height: 96px;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0 64px;
+  
+  
+    .header_logo {
+      width: 140px;
+      margin-bottom: 0;
+  
+  
+  
+      a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        content: url('../assets/icons/logo_header_right-icon.svg');
+      }
+    }
+  
+    .header_infos_box {
+      width: 75%;
+      margin-left: 0;
+    
+      ul{
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: inherit;
+  
+        width: 100%;
+        height: 100%;
+  
+        li {
+          margin-top: 0;
+          a {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            letter-spacing: 0.1em;
+            font-size: $paragraph;
+            width: auto;
+            padding: 0;
+          }
+  
+  
+  
+          #tel::before {
+            width: 21px;
+            
+            margin-right: 8px;
+            content: url('../assets/icons/tel-icon.svg');  
+  
+          }
+  
+          #email::before {
+            width: 24px;
+            
+            margin-right: 8px;
+            content: url('../assets/icons/email-icon.svg');  
+  
+          }
+          #adress{
+            max-width: 17em;
+          }
+          #adress::before {
+            width:36px;
+            
+            margin-right: 8px;
+            content: url('../assets/icons/adress-icon.svg');  
+  
+          }
+
+          #insta::before {
+            width: 28px;
+            margin-left: 0;
+            margin-right: 8px;
+            content: url('../assets/icons/istagram-icon.svg');  
+  
+          }
+        }
+  
+  
+      } 
+    }
+  }
+}

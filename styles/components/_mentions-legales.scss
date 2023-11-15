@@ -1,0 +1,31 @@
+@import '../abstract/base';
+@import '../abstract/variables';
+
+.mentions_legales {
+  color: $isa-rouge-dark;
+  padding: 5% 3%;
+
+
+  ul {
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+@media screen and (min-width:764px) and (max-width:1439px) {
+  .mentions_legales {
+    color: $isa-rouge-dark;
+    padding: 5% 12.5%;
+  }
+  
+}
+
+@media screen and (min-width:1440px) {
+  .mentions_legales {
+    color: $isa-rouge-dark;
+    padding: 5% 25%;
+  }
+  
+}
+
