@@ -11,7 +11,7 @@ $isa-orange-dark: #805240;
 $isa-rouge-dark: #824941;
 $isa-vert-dark: #826941;
 
-$isa-white: #FDFCFC;
+$isa-white: white;
 
 
 
@@ -26,12 +26,13 @@ $text-type: 'Montserrat', sans-serif;
 
   //Sizes :
   $paragraph-small: 12px;
-  $paragraph: 16px;
+  $paragraph: 18px;
+  $paragraph-secondary: 16px;
   $paragraph-lead: 24px;
 
   $h1: 56px;
-  $h2: 40px;
-  $h3: 36px;
-  $h4: 24px;
-  $h5: 20px;
-  $h6: 16px;
+  $h2: 48px;
+  $h3: 42px;
+  $h4: 36px;
+  $h5: 24px;
+  $h6: 18px;
