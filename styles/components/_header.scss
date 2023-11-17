@@ -8,12 +8,15 @@ header {
   height: auto;
   justify-content: space-between;
   align-items: stretch;
-  
+  margin: 0;
 
 
   .header_logo {
-    width: 180px;
-
+    z-index: 5;
+    
+    width: 160px;
+    padding: 1rem 0;
+    margin: 0 0 0 1.5rem;
 
 
     a {
@@ -24,32 +27,59 @@ header {
     }
   }
 
+  .header_menu-button {
+    display: block;
+    z-index: 5;
+    cursor: pointer;
+
+    padding: 0 1.5rem;
+    background: none;
+    border: none;
+    color: currentColor;
+    font-size: 36px !important;
+  }
+
   .header_nav--none {
     display: none;
-    
-    margin-left: 42px;
+  }
+
+  .header_nav--active {
+    z-index: 4;
+    background-color: $isa-white;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 95px;
+    box-shadow: none;
+
 
     ul{
+
       margin: 0;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-      
-      height: 100%;
+      flex-wrap: wrap;
+      align-content: start;
 
       li {
 
-        margin-top: .5em;
+        margin: 1rem 0;
+        width: 100%;
+
         a {
-          display: flex;
-          align-items: center;
-          height: 100%;
-          letter-spacing: 0.1em;
-          font-size: $paragraph;
-          width: 17em;
-          padding: 1em 0;
+        display: flex;
+        justify-content: start;
+        letter-spacing: 0.1em;
+        font-size: $paragraph;
+        padding: 1.33em;
+
+          &:hover {
+
+            border-left: 2px $isa-rouge-dark solid;
+            border-right: none;
+            border-bottom: none;
+
+          }
         }
 
       }
@@ -66,91 +96,86 @@ header {
   header {
     display: flex;
     flex-wrap: wrap;
-    background-color: $isa-rouge-medium;
+    background-color: $isa-white;
     height: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: stretch;
-    padding: 32px 64px;
     
+    margin: 0;
   
   
     .header_logo {
+      z-index: 5;
+      
       width: 200px;
-      margin-bottom: 32px;
-  
+      padding: 1.5rem 0;
+      margin: 0 0 0 3rem;
   
   
       a {
         display: block;
         width: 100%;
         height: 100%;
-        content: url('../assets/icons/logo_header_left-icon.svg');
+        content: url('../../assets/imgs/Right_logo.svg');
       }
     }
   
-    .header_infos_box {
-      
-      margin-left: 42px;
+    .header_menu-button {
+      display: block;
+      z-index: 5;
+      cursor: pointer;
+  
+      padding: 0px 3rem 0 1rem;
+      background: none;
+      border: none;
+      color: currentColor;
+      font-size: 36px !important;
+    }
+  
+    .header_nav--none {
+      display: none;
+    }
+  
+    .header_nav--active {
+      z-index: 4;
+      background-color: $isa-white;
+      display: flex;
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      right: 0;
+      top: 119px;
+  
+      box-shadow: #82494114 0px 35px 30px 0px;
   
       ul{
+  
         margin: 0;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-  
-        
-        height: 100%;
+        flex-wrap: wrap;
+        align-content: start;
   
         li {
   
-          margin-top: .5em;
+          margin: 1rem 0;
+          width: 100%;
+  
           a {
-            display: flex;
-            align-items: center;
-            height: 100%;
-            letter-spacing: 0.1em;
-            font-size: $paragraph;
-            width: 17em;
-            padding: 1em 0;
+          display: flex;
+          justify-content: end;
+          letter-spacing: 0.1em;
+          font-size: $paragraph;
+          padding: 1.33em 4em ;
+
+            &:hover {
+
+              border-left: none;
+              border-right: 2px $isa-rouge-dark solid;
+              border-bottom: none;
+            }
           }
+
   
-  
-  
-          #tel::before {
-            width: 21px;
-            
-            margin-right: 8px;
-            content: url('../assets/icons/tel-icon.svg');  
-  
-          }
-  
-          #email::before {
-            width: 24px;
-            
-            margin-right: 8px;
-            content: url('../assets/icons/email-icon.svg');  
-  
-          }
-          #adress{
-            max-width: 17em;
-          }
-          #adress::before {
-            width:36px;
-            
-            margin-right: 8px;
-            content: url('../assets/icons/adress-icon.svg');  
-  
-          }
-  
-  
-          #insta::before {
-            width: 28px;
-            
-            margin-left: 40%;
-            content: url('../assets/icons/istagram-icon.svg');  
-  
-          }
         }
   
   
@@ -162,89 +187,142 @@ header {
 @media screen and (min-width:1440px) {
   header {
     display: flex;
-    flex-wrap: wrap;
-    background-color: $isa-rouge-medium;
-    height: 96px;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    height: auto;
     justify-content: space-between;
     align-items: stretch;
-    padding: 0 64px;
+    max-width: 1440px;
+    margin: 0 auto;
+    
   
   
     .header_logo {
-      width: 140px;
-      margin-bottom: 0;
-  
+      z-index: 5;
+      
+      width: 240px;
+      padding: 1.5rem 0;
+      margin: 0 0 0 3rem;
   
   
       a {
         display: block;
         width: 100%;
         height: 100%;
-        content: url('../assets/icons/logo_header_right-icon.svg');
+        content: url('../../assets/imgs/Right_logo.svg');
       }
     }
   
-    .header_infos_box {
-      width: 75%;
-      margin-left: 0;
-    
+    .header_menu-button {
+
+      display: none;
+
+      z-index: 5;
+      cursor: pointer;
+  
+      padding: 0px 3rem 0 1rem;
+      background: none;
+      border: none;
+      color: currentColor;
+      font-size: 36px !important;
+    }
+  
+    .header_nav--none {
+      z-index: 4;
+      background-color: $isa-white;
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: auto;
+      right: auto;
+      top: auto;
+  
+      box-shadow: none;
+  
       ul{
+  
         margin: 0;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: inherit;
-  
+        flex-wrap: wrap;
+        align-content: center;
         width: 100%;
-        height: 100%;
+        justify-content: end;
   
         li {
-          margin-top: 0;
+
+          height: 100%;
+          margin: 0;
+          width: auto;
+  
           a {
             display: flex;
-            align-items: center;
-            height: 100%;
+            justify-content: end;
             letter-spacing: 0.1em;
-            font-size: $paragraph;
-            width: auto;
-            padding: 0;
-          }
-  
-  
-  
-          #tel::before {
-            width: 21px;
-            
-            margin-right: 8px;
-            content: url('../assets/icons/tel-icon.svg');  
-  
-          }
-  
-          #email::before {
-            width: 24px;
-            
-            margin-right: 8px;
-            content: url('../assets/icons/email-icon.svg');  
-  
-          }
-          #adress{
-            max-width: 17em;
-          }
-          #adress::before {
-            width:36px;
-            
-            margin-right: 8px;
-            content: url('../assets/icons/adress-icon.svg');  
-  
+            font-size: 18px;
+            padding: 0 2em;
+            height: 100%;
+            align-items: center;
+
+            &:hover {
+
+              border-left: none;
+              border-right: none;
+              border-bottom: 2px $isa-rouge-dark solid;
+            }
           }
 
-          #insta::before {
-            width: 28px;
-            margin-left: 0;
-            margin-right: 8px;
-            content: url('../assets/icons/istagram-icon.svg');  
   
+        }
+  
+  
+      } 
+    }
+  
+    .header_nav--active {
+      z-index: 4;
+      background-color: $isa-white;
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: auto;
+      right: auto;
+      top: auto;
+  
+      box-shadow: none;
+  
+      ul{
+  
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 100%;
+        justify-content: end;
+  
+        li {
+
+          height: 100%;
+          margin: 0;
+          width: auto;
+  
+          a {
+            display: flex;
+            justify-content: end;
+            letter-spacing: 0.1em;
+            font-size: 18px;
+            padding: 0 2em;
+            height: 100%;
+            align-items: center;
+
+            &:hover {
+
+              border-left: none;
+              border-right: none;
+              border-bottom: 2px $isa-rouge-dark solid;
+            }
           }
+
+  
         }
   
   

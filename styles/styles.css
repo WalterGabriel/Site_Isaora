@@ -5,7 +5,7 @@
 }
 
 .material-symbols-rounded {
-  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 24;
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
 }
 
 :root {
@@ -15,7 +15,7 @@
 }
 
 .material-symbols-rounded {
-  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 24;
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
 }
 
 .mentions_legales {
@@ -45,19 +45,23 @@
 }
 
 .material-symbols-rounded {
-  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 24;
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
 }
 
 header {
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: #fff;
   height: auto;
   justify-content: space-between;
   align-items: stretch;
+  margin: 0;
 }
 header .header_logo {
-  width: 180px;
+  z-index: 5;
+  width: 160px;
+  padding: 1rem 0;
+  margin: 0 0 0 1.5rem;
 }
 header .header_logo a {
   display: block;
@@ -65,166 +69,229 @@ header .header_logo a {
   height: 100%;
   content: url("../../assets/imgs/Right_logo.svg");
 }
+header .header_menu-button {
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+  padding: 0 1.5rem;
+  background: none;
+  border: none;
+  color: currentColor;
+  font-size: 36px !important;
+}
 header .header_nav--none {
   display: none;
-  margin-left: 42px;
 }
-header .header_nav--none ul {
+header .header_nav--active {
+  z-index: 4;
+  background-color: #fff;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 95px;
+  box-shadow: none;
+}
+header .header_nav--active ul {
   margin: 0;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  flex-wrap: wrap;
+  align-content: start;
 }
-header .header_nav--none ul li {
-  margin-top: 0.5em;
+header .header_nav--active ul li {
+  margin: 1rem 0;
+  width: 100%;
 }
-header .header_nav--none ul li a {
+header .header_nav--active ul li a {
   display: flex;
-  align-items: center;
-  height: 100%;
+  justify-content: start;
   letter-spacing: 0.1em;
   font-size: 18px;
-  width: 17em;
-  padding: 1em 0;
+  padding: 1.33em;
+}
+header .header_nav--active ul li a:hover {
+  border-left: 2px #824941 solid;
+  border-right: none;
+  border-bottom: none;
 }
 
 @media screen and (min-width: 768px) {
   header {
     display: flex;
     flex-wrap: wrap;
-    background-color: #995C54;
+    background-color: #fff;
     height: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: stretch;
-    padding: 32px 64px;
+    margin: 0;
   }
   header .header_logo {
+    z-index: 5;
     width: 200px;
-    margin-bottom: 32px;
+    padding: 1.5rem 0;
+    margin: 0 0 0 3rem;
   }
   header .header_logo a {
     display: block;
     width: 100%;
     height: 100%;
-    content: url("../assets/icons/logo_header_left-icon.svg");
+    content: url("../../assets/imgs/Right_logo.svg");
   }
-  header .header_infos_box {
-    margin-left: 42px;
+  header .header_menu-button {
+    display: block;
+    z-index: 5;
+    cursor: pointer;
+    padding: 0px 3rem 0 1rem;
+    background: none;
+    border: none;
+    color: currentColor;
+    font-size: 36px !important;
   }
-  header .header_infos_box ul {
+  header .header_nav--none {
+    display: none;
+  }
+  header .header_nav--active {
+    z-index: 4;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 119px;
+    box-shadow: rgba(130, 73, 65, 0.0784313725) 0px 35px 30px 0px;
+  }
+  header .header_nav--active ul {
     margin: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    flex-wrap: wrap;
+    align-content: start;
   }
-  header .header_infos_box ul li {
-    margin-top: 0.5em;
+  header .header_nav--active ul li {
+    margin: 1rem 0;
+    width: 100%;
   }
-  header .header_infos_box ul li a {
+  header .header_nav--active ul li a {
     display: flex;
-    align-items: center;
-    height: 100%;
+    justify-content: end;
     letter-spacing: 0.1em;
     font-size: 18px;
-    width: 17em;
-    padding: 1em 0;
+    padding: 1.33em 4em;
   }
-  header .header_infos_box ul li #tel::before {
-    width: 21px;
-    margin-right: 8px;
-    content: url("../assets/icons/tel-icon.svg");
-  }
-  header .header_infos_box ul li #email::before {
-    width: 24px;
-    margin-right: 8px;
-    content: url("../assets/icons/email-icon.svg");
-  }
-  header .header_infos_box ul li #adress {
-    max-width: 17em;
-  }
-  header .header_infos_box ul li #adress::before {
-    width: 36px;
-    margin-right: 8px;
-    content: url("../assets/icons/adress-icon.svg");
-  }
-  header .header_infos_box ul li #insta::before {
-    width: 28px;
-    margin-left: 40%;
-    content: url("../assets/icons/istagram-icon.svg");
+  header .header_nav--active ul li a:hover {
+    border-left: none;
+    border-right: 2px #824941 solid;
+    border-bottom: none;
   }
 }
 @media screen and (min-width: 1440px) {
   header {
     display: flex;
-    flex-wrap: wrap;
-    background-color: #995C54;
-    height: 96px;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    height: auto;
     justify-content: space-between;
     align-items: stretch;
-    padding: 0 64px;
+    max-width: 1440px;
+    margin: 0 auto;
   }
   header .header_logo {
-    width: 140px;
-    margin-bottom: 0;
+    z-index: 5;
+    width: 240px;
+    padding: 1.5rem 0;
+    margin: 0 0 0 3rem;
   }
   header .header_logo a {
     display: block;
     width: 100%;
     height: 100%;
-    content: url("../assets/icons/logo_header_right-icon.svg");
+    content: url("../../assets/imgs/Right_logo.svg");
   }
-  header .header_infos_box {
-    width: 75%;
-    margin-left: 0;
+  header .header_menu-button {
+    display: none;
+    z-index: 5;
+    cursor: pointer;
+    padding: 0px 3rem 0 1rem;
+    background: none;
+    border: none;
+    color: currentColor;
+    font-size: 36px !important;
   }
-  header .header_infos_box ul {
+  header .header_nav--none {
+    z-index: 4;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    right: auto;
+    top: auto;
+    box-shadow: none;
+  }
+  header .header_nav--none ul {
     margin: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: inherit;
+    flex-wrap: wrap;
+    align-content: center;
     width: 100%;
+    justify-content: end;
+  }
+  header .header_nav--none ul li {
     height: 100%;
+    margin: 0;
+    width: auto;
   }
-  header .header_infos_box ul li {
-    margin-top: 0;
-  }
-  header .header_infos_box ul li a {
+  header .header_nav--none ul li a {
     display: flex;
-    align-items: center;
-    height: 100%;
+    justify-content: end;
     letter-spacing: 0.1em;
     font-size: 18px;
+    padding: 0 2em;
+    height: 100%;
+    align-items: center;
+  }
+  header .header_nav--none ul li a:hover {
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px #824941 solid;
+  }
+  header .header_nav--active {
+    z-index: 4;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    right: auto;
+    top: auto;
+    box-shadow: none;
+  }
+  header .header_nav--active ul {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    justify-content: end;
+  }
+  header .header_nav--active ul li {
+    height: 100%;
+    margin: 0;
     width: auto;
-    padding: 0;
   }
-  header .header_infos_box ul li #tel::before {
-    width: 21px;
-    margin-right: 8px;
-    content: url("../assets/icons/tel-icon.svg");
+  header .header_nav--active ul li a {
+    display: flex;
+    justify-content: end;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    padding: 0 2em;
+    height: 100%;
+    align-items: center;
   }
-  header .header_infos_box ul li #email::before {
-    width: 24px;
-    margin-right: 8px;
-    content: url("../assets/icons/email-icon.svg");
-  }
-  header .header_infos_box ul li #adress {
-    max-width: 17em;
-  }
-  header .header_infos_box ul li #adress::before {
-    width: 36px;
-    margin-right: 8px;
-    content: url("../assets/icons/adress-icon.svg");
-  }
-  header .header_infos_box ul li #insta::before {
-    width: 28px;
-    margin-left: 0;
-    margin-right: 8px;
-    content: url("../assets/icons/istagram-icon.svg");
+  header .header_nav--active ul li a:hover {
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px #824941 solid;
   }
 }
 :root {
@@ -234,7 +301,7 @@ header .header_nav--none ul li a {
 }
 
 .material-symbols-rounded {
-  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 24;
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
 }
 
 .main_a-venir {
@@ -251,11 +318,10 @@ header .header_nav--none ul li a {
   background-size: cover;
 }
 .main_a-venir .main_text-box {
-  z-index: 5;
   width: 100%;
   height: 60%;
   position: relative;
-  color: white;
+  color: #fff;
   padding: 32px;
   background-image: url("../assets/Mobile/imgs/Douleurs_Menstruelles.png");
   background-position: center;
@@ -287,7 +353,7 @@ header .header_nav--none ul li a {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background-color: white;
+  background-color: #fff;
   box-shadow: 5px 3px 5px 0 rgba(50, 31, 28, 0.3215686275);
   border-radius: 12px;
   padding: 24px;
@@ -295,11 +361,11 @@ header .header_nav--none ul li a {
 }
 .main_a-venir .main_text-box .main_link .main_link_button:hover {
   background-color: #B3837D;
-  color: white;
+  color: #fff;
 }
 .main_a-venir .main_text-box .main_link .main_link_button:active {
   background-color: #824941;
-  color: white;
+  color: #fff;
   box-shadow: 3px 2px 5px 0 rgba(50, 31, 28, 0.3215686275);
 }
 
@@ -322,7 +388,7 @@ header .header_nav--none ul li a {
     width: 100%;
     height: 60%;
     position: relative;
-    color: white;
+    color: #fff;
     padding: 116px;
     background: url("../assets/Mobile/imgs/Douleurs_Menstruelles.png") no-repeat;
     background-position: center;
@@ -351,18 +417,18 @@ header .header_nav--none ul li a {
     font-weight: 700;
     font-size: 24px;
     letter-spacing: 0.1em;
-    background-color: white;
+    background-color: #fff;
     border-radius: 12px;
     padding: 24px;
     transition: ease 200ms;
   }
   .main_a-venir .main_text-box .main_link .main_link_button:hover {
     background-color: #B3837D;
-    color: white;
+    color: #fff;
   }
   .main_a-venir .main_text-box .main_link .main_link_button:active {
     background-color: #824941;
-    color: white;
+    color: #fff;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -409,7 +475,7 @@ header .header_nav--none ul li a {
     margin-top: 24px;
   }
   .main_a-venir .main_text-box .main_link .main_link_button {
-    color: white;
+    color: #fff;
     font-weight: 700;
     font-size: 24px;
     letter-spacing: 0.1em;
@@ -420,11 +486,11 @@ header .header_nav--none ul li a {
   }
   .main_a-venir .main_text-box .main_link .main_link_button:hover {
     background-color: #B3837D;
-    color: white;
+    color: #fff;
   }
   .main_a-venir .main_text-box .main_link .main_link_button:active {
     background-color: #824941;
-    color: white;
+    color: #fff;
   }
 }
 :root {
@@ -434,7 +500,7 @@ header .header_nav--none ul li a {
 }
 
 .material-symbols-rounded {
-  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 24;
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
 }
 
 footer {
