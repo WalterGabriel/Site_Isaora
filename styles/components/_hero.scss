@@ -1,0 +1,57 @@
+@import '../abstract/base';
+@import '../abstract/variables';
+
+.hero_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 1rem;
+
+  .hero_description {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+
+    .hero_title {
+      font-size: 24px;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    .hero_paragraph{
+      font-size: 18px;
+    }
+
+    .hero_primary-button {
+      font-weight: 500;
+      border: solid 2px #853b31;
+      color: white;
+      background-color: #853b31;
+
+    }
+
+    .hero_secondary-button{
+      border: solid 2px $isa-rouge-medium;
+      color: $isa-rouge-medium;
+      background-color: $isa-white;
+    }
+
+    .hero_secondary-button, .hero_primary-button{
+      margin: 0 0 1rem 0;
+      padding: 24px 12px;
+      border-radius: 8px;
+      
+      text-align: center;
+      font-size: $paragraph;
+      letter-spacing: 0.1em;
+    }
+
+
+  }
+
+  img {
+    order: 1;
+    width: 75%;
+    
+  }
+}

@@ -304,6 +304,59 @@ header .header_nav--active ul li a:hover {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
 }
 
+.hero_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 1rem;
+}
+.hero_container .hero_description {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+}
+.hero_container .hero_description .hero_title {
+  font-size: 24px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.hero_container .hero_description .hero_paragraph {
+  font-size: 18px;
+}
+.hero_container .hero_description .hero_primary-button {
+  font-weight: 500;
+  border: solid 2px #853b31;
+  color: white;
+  background-color: #853b31;
+}
+.hero_container .hero_description .hero_secondary-button {
+  border: solid 2px #995C54;
+  color: #995C54;
+  background-color: #fff;
+}
+.hero_container .hero_description .hero_secondary-button, .hero_container .hero_description .hero_primary-button {
+  margin: 0 0 1rem 0;
+  padding: 24px 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+.hero_container img {
+  order: 1;
+  width: 75%;
+}
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #824941;
+}
+
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
+}
+
 .main_a-venir {
   display: block;
   transform: ease 200ms;
