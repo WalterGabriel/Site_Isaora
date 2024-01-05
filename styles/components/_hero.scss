@@ -6,6 +6,13 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 1rem;
+  margin: 2rem 0;
+
+  img {
+    order: 1;
+    width: 75%;
+    margin: 0 0 1rem 0;
+  }
 
   .hero_description {
     order: 2;
@@ -13,13 +20,16 @@
     flex-direction: column;
 
     .hero_title {
-      font-size: 24px;
-      margin: 0;
+      font-size: $h5;
+      margin: 0 0 1rem 0;
       text-transform: uppercase;
+
+      letter-spacing: 0;
     }
 
     .hero_paragraph{
-      font-size: 18px;
+      font-size: $paragraph;
+      margin: 0 0 1rem 0;
     }
 
     .hero_primary-button {
@@ -38,7 +48,7 @@
 
     .hero_secondary-button, .hero_primary-button{
       margin: 0 0 1rem 0;
-      padding: 24px 12px;
+      padding: 16px 12px;
       border-radius: 8px;
       
       text-align: center;
@@ -49,9 +59,148 @@
 
   }
 
-  img {
-    order: 1;
-    width: 75%;
-    
+
+}
+
+@media (min-width:768px) {
+
+  .hero_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 4rem;
+    margin: 6rem 0;
+  
+    img {
+      order: 1;
+      width: 50%;
+      margin: 0 0 2rem 0;
+    }
+  
+    .hero_description {
+      order: 2;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+  
+      .hero_title {
+        font-size: $h4;
+        margin: 0 0 1rem 0;
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+      }
+  
+      .hero_paragraph{
+        font-size: $paragraph;
+        margin: 0 0 2rem 0;
+      }
+
+      .hero_secondary-button, .hero_primary-button{
+        margin: 0 0 1rem 0;
+        padding: 16px 12px;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+      }
+  
+      .hero_primary-button {
+        font-weight: 500;
+        border: solid 2px #853b31;
+        color: white;
+        background-color: #853b31;
+        width: 66%;
+        order: 2;
+  
+      }
+  
+      .hero_secondary-button{
+        border: solid 2px #995C54;
+        color: #995C54;
+        background-color: #fff;
+        width: 33%;
+        order: 1;
+      }
+  
+
+  
+  
+    }
+  
+  }
+}
+
+
+@media (min-width:1440px) {
+
+  .hero_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 6rem 0;
+  
+    img {
+      order: 2;
+      width: 25%;
+      margin: 0 0 0 4rem;
+      -o-object-fit: contain;
+      object-fit: contain;
+    }
+  
+    .hero_description {
+      order: 1;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 40%;
+      margin: 0 4rem 0 0;
+  
+      .hero_title {
+        font-size: $h3;
+        margin: 0 0 1rem 0;
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+      }
+  
+      .hero_paragraph{
+        font-size: $paragraph-lead;
+        margin: 0 0 2rem 0;
+      }
+
+      .hero_secondary-button, .hero_primary-button{
+        margin: 0 0 0 0;
+        padding: 16px 0;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 0.1em;
+      }
+  
+      .hero_primary-button {
+        font-weight: 500;
+        border: solid 2px #853b31;
+        color: white;
+        background-color: #853b31;
+        width: 66%;
+        order: 2;
+  
+      }
+  
+      .hero_secondary-button{
+        border: solid 2px #995C54;
+        color: #995C54;
+        background-color: #fff;
+        width: 33%;
+        order: 1;
+      }
+  
+
+  
+  
+    }
+  
   }
 }
