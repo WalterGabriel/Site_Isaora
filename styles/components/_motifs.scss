@@ -1,0 +1,273 @@
+@import '../abstract/base';
+@import '../abstract/variables';
+
+
+
+
+@media (min-width:768px) {
+
+  .motifs_container {
+    text-align: center;
+    width: 100%;
+
+    .motifs_title {
+      font-size: $h5;
+      font-weight: $extraLight ;
+      color: $isa-rouge-dark;
+      text-transform: uppercase;
+      margin: 0;
+
+    }
+
+    .motifs_card-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      margin: 2rem 0;
+      flex-wrap: wrap;
+
+
+      #baby-bg {
+        background: radial-gradient(closest-corner, transparent,transparent, #fff), no-repeat center/cover url("../../assets/imgs/cards/baby_card_cover.jpg");
+      }
+
+      #child-bg {
+        background: radial-gradient(closest-corner, transparent,transparent, #fff), no-repeat center/cover url("../../assets/imgs/cards/child_card_cover.jpg");
+      }
+
+      #adulte-bg {
+        background: radial-gradient(closest-corner, transparent,transparent, #fff), no-repeat center/cover url("../../assets/imgs/cards/adult_card_cover.jpg");
+      }
+
+
+
+
+      .motifs_card{
+      
+        margin: 0 3rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 320px;
+        height: 480px;
+        
+        .motifs_card-cover{
+          display: block;
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          
+          
+
+
+        }
+        
+        .motifs_card_title {
+            
+          text-transform: uppercase;
+          font-weight: $regular;
+          font-size: $h5;
+          margin: 0 0 1rem 0;
+          color: $isa-gris;
+        }
+
+        .motifs_description {
+          display: flex;
+          height: 480px;
+          width: 320px;
+          padding: 1rem;
+          color: $isa-black;
+          position: absolute;
+          flex-direction: column;
+
+          justify-content: space-between;
+          background-color: #ffffffb0;
+          opacity: 100%;
+          transition: opacity ease-in-out 300ms;
+
+
+
+          &:hover{
+            opacity: 100%;
+          }
+      
+
+          .motifs_list {
+            
+            text-align: left;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            height: 320px;
+            .motifs_item {
+              font-size: $paragraph-secondary;
+              padding: .5rem;
+            }
+            
+          }
+        }
+      }
+
+    }
+
+  }
+
+  .motifs_link-button{
+    cursor: pointer;
+    margin: 0 0 0 0;
+    padding: 16px 16px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: $paragraph-secondary;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: solid 2px $isa-rouge-dark;
+    color: white;
+    background-color: $isa-rouge-dark;
+    transition: background-color ease-in-out 200ms;
+    
+    &:hover {
+      
+      background-color: $isa-rouge-hover;
+      border: solid 2px $isa-rouge-hover;
+      
+    }
+  }
+  
+}
+
+
+
+
+@media (min-width:1440px) {
+
+  .motifs_container {
+    text-align: center;
+    width: 100%;
+
+    .motifs_title {
+      font-size: $h2;
+      font-weight: $extraLight ;
+      color: $isa-rouge-dark;
+      text-transform: uppercase;
+      margin: 0;
+
+    }
+
+    .motifs_card-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 2rem 0;
+
+
+      #baby-bg {
+        background: radial-gradient(closest-corner, transparent,transparent, #fff), no-repeat center/cover url("../../assets/imgs/cards/baby_card_cover.jpg");
+      }
+
+      #child-bg {
+        background: radial-gradient(closest-corner, transparent,transparent, #fff), no-repeat center/cover url("../../assets/imgs/cards/child_card_cover.jpg");
+      }
+
+      #adulte-bg {
+        background: radial-gradient(closest-corner, transparent,transparent, #fff), no-repeat center/cover url("../../assets/imgs/cards/adult_card_cover.jpg");
+      }
+
+
+
+
+      .motifs_card{
+      
+        margin: 0 3rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 320px;
+        height: 480px;
+        
+        .motifs_card-cover{
+          display: block;
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          
+          
+
+
+        }
+        
+        .motifs_card_title {
+            
+          text-transform: uppercase;
+          font-weight: $regular;
+          font-size: $h5;
+          margin: 0 0 1rem 0;
+          color: $isa-gris;
+        }
+
+        .motifs_description {
+          display: flex;
+          height: 480px;
+          width: 320px;
+          padding: 1rem;
+          color: $isa-black;
+          position: absolute;
+          flex-direction: column;
+
+          justify-content: space-between;
+          background-color: #ffffffb0;
+          opacity: 0;
+          transition: opacity ease-in-out 300ms;
+
+
+
+          &:hover{
+            opacity: 100%;
+          }
+      
+
+          .motifs_list {
+            
+            text-align: left;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            height: 320px;
+            .motifs_item {
+              font-size: $paragraph-secondary;
+              padding: .5rem;
+            }
+            
+          }
+        }
+      }
+
+    }
+
+  }
+
+  .motifs_link-button{
+    cursor: pointer;
+    margin: 0 0 0 0;
+    padding: 16px 16px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: $paragraph-secondary;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: solid 2px $isa-rouge-dark;
+    color: white;
+    background-color: $isa-rouge-dark;
+    transition: background-color ease-in-out 200ms;
+    
+    &:hover {
+      
+      background-color: $isa-rouge-hover;
+      border: solid 2px $isa-rouge-hover;
+      
+    }
+  }
+  
+}

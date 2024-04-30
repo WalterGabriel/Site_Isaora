@@ -67,6 +67,7 @@ header {
         width: 100%;
 
         a {
+        color: $isa-rouge-light;
         display: flex;
         justify-content: start;
         letter-spacing: 0.1em;
@@ -74,10 +75,7 @@ header {
         padding: 1.33em;
 
           &:hover {
-
-            border-left: 2px $isa-rouge-dark solid;
-            border-right: none;
-            border-bottom: none;
+            color: $highlight;
 
           }
         }
@@ -161,6 +159,7 @@ header {
           width: 100%;
   
           a {
+          color: $isa-rouge-light;
           display: flex;
           justify-content: end;
           letter-spacing: 0.1em;
@@ -169,9 +168,7 @@ header {
 
             &:hover {
 
-              border-left: none;
-              border-right: 2px $isa-rouge-dark solid;
-              border-bottom: none;
+              color: $highlight;
             }
           }
 
@@ -192,7 +189,7 @@ header {
     height: auto;
     justify-content: space-between;
     align-items: stretch;
-    max-width: 1440px;
+    max-width: 1600px;
     margin: 0 auto;
     
   
@@ -228,6 +225,7 @@ header {
     }
   
     .header_nav--none {
+      margin-right: 6rem;
       z-index: 4;
       background-color: $isa-white;
       display: flex;
@@ -236,7 +234,6 @@ header {
       height: auto;
       right: auto;
       top: auto;
-  
       box-shadow: none;
   
       ul{
@@ -255,6 +252,7 @@ header {
           width: auto;
   
           a {
+            color: $isa-rouge-light;
             display: flex;
             justify-content: end;
             letter-spacing: 0.1em;
@@ -265,9 +263,7 @@ header {
 
             &:hover {
 
-              border-left: none;
-              border-right: none;
-              border-bottom: 2px $isa-rouge-dark solid;
+              color: $highlight;
             }
           }
 
@@ -306,6 +302,7 @@ header {
           width: auto;
   
           a {
+            color: $isa-rouge-light;
             display: flex;
             justify-content: end;
             letter-spacing: 0.1em;
@@ -316,9 +313,7 @@ header {
 
             &:hover {
 
-              border-left: none;
-              border-right: none;
-              border-bottom: 2px $isa-rouge-dark solid;
+              color: $highlight;
             }
           }
 
