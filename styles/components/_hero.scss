@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 1rem;
-  margin: 2rem 0;
+  margin: 6rem 0 2rem 0;
 
   img {
     order: 1;
@@ -29,21 +29,23 @@
     }
 
     .hero_paragraph{
-      font-size: $paragraph;
-      margin: 0 0 1rem 0;
+      font-size: $paragraph-secondary;
+      margin: 0 0 2rem 0;
+      hyphens: auto;
     }
 
     .hero_primary-button {
       font-weight: 500;
       border: solid 2px transparent;
       color: white;
-      background-color: $highlight;
-
+      background-color: $highlight-hover;
+      order: 2;
     }
 
     .hero_secondary-button{
-      border: solid 2px $isa-rouge-medium;
-      color: $isa-rouge-medium;
+      order: 1;
+      border: solid 2px $isa-orange-light;
+      color: $isa-orange-light;
       background-color: $isa-white;
     }
 
@@ -52,9 +54,11 @@
       padding: 16px 12px;
       border-radius: 8px;
       text-transform: uppercase;
+
+      transition:  ease-in-out 200ms, border-color ease-in-out 200ms, color ease-in-out 200ms;
       
       text-align: center;
-      font-size: $paragraph;
+      font-size: $paragraph-secondary;
       letter-spacing: 0.1em;
     }
 
@@ -70,8 +74,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 4rem;
-    margin: 6rem 0;
+    padding: 0 5rem;
+    margin: 5rem 0 3rem 0;
   
     img {
       order: 1;
@@ -107,22 +111,26 @@
         text-align: center;
         font-size: 18px;
         letter-spacing: 0.1em;
-        transition: background-color ease-in-out 200ms;
+        
       }
   
       .hero_primary-button {
         font-weight: 500;
         border: solid 2px transparent;
         color: white;
-        background-color: #853b31;
+        background-color: $highlight-hover;
         width: 66%;
         order: 2;
+
+        &:active, &:hover {
+          background-color: $highlight-hover;
+        }
   
       }
   
       .hero_secondary-button{
-        border: solid 2px $isa-rouge-medium;
-        color: $isa-rouge-medium;
+        border: solid 2px $isa-orange-light;
+        color: $isa-orange-light;
         background-color: #fff;
         width: 33%;
         order: 1;
@@ -171,7 +179,7 @@
   
       .hero_title {
         font-size: $h1;
-        margin: 0 0 1rem 0;
+        margin: 0 0 0 0;
         text-transform: uppercase;
         letter-spacing: 0.15rem;
         line-height: 1.25em;
@@ -196,13 +204,13 @@
       .hero_primary-button {
         border: solid 2px transparent;
         color: white;
-        background-color:$highlight;
+        background-color:$highlight-hover;
         width: 64%;
         order: 2;
 
         
         &:hover {
-          background-color: $highlight-hover;
+          background-color: $highlight;
           border: solid 2px transparent;
           
         }
@@ -210,15 +218,15 @@
       }
   
       .hero_secondary-button{
-        border: solid 2px $isa-orange-dark;
-        color: $isa-orange-dark;
+        border: solid 2px $isa-orange-light;
+        color: $isa-orange-light;
         background-color: #fff;
         width: 33%;
         order: 1;
 
         &:hover {
-          color: $isa-rouge-light;
-          border: solid 2px $isa-rouge-light;
+          color: $isa-rouge-hover;
+          border: solid 2px $isa-rouge-hover;
           
         }
       }

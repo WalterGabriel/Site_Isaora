@@ -1,0 +1,48 @@
+@import '../abstract/variables';
+@import '../abstract/base';
+
+.cabinet_section {
+  background-color: $isa-rouge-medium;
+  color: $isa-white;
+
+  .cabinet_container {
+
+    padding: 2rem 0;
+
+
+
+    .cabinet_carousel {
+      width: 300%;
+      max-width: 400px;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    
+    .cabinet_slides {
+      display: flex;
+      width: 100%;
+      animation: cabinet_slide 16s infinite;
+    }
+    
+    .cabinet_slide {
+      width: 100%;
+      flex-shrink: 0;
+    
+    }
+    
+    .cabinet_slide img {
+      width: 100%;
+      display: block;
+    }
+    
+    @keyframes cabinet_slide {
+      0%, 20% { transform: translateX(0); }
+      25%, 45% { transform: translateX(-100%); }
+      50%, 70% { transform: translateX(-200%); }
+      75%, 95% { transform: translateX(-300%); }
+      100% { transform: translateX(0); }
+    }
+
+  }
+
+}
