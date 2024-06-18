@@ -148,7 +148,6 @@
 @media (min-width:1440px) {
   main {
     margin: auto;
-    max-width: 1600px;
   }
   
 
@@ -158,7 +157,8 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 0;
-    margin: 6rem 0;
+    margin: 6rem auto;
+    max-width: 2000px;
   
     img {
       order: 2;
@@ -174,12 +174,13 @@
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-between;
+      align-content: center;
       width: 40%;
       margin: 0 4rem 0 0;
   
       .hero_title {
         font-size: $h1;
-        margin: 0 0 0 0;
+        margin: 0 0 3rem 0;
         text-transform: uppercase;
         letter-spacing: 0.15rem;
         line-height: 1.25em;
