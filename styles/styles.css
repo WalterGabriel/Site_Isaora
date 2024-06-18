@@ -1077,7 +1077,7 @@ footer p a {
   color: #fff;
 }
 .cabinet_section .cabinet_container {
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
 .cabinet_section .cabinet_container .cabinet_title {
   font-size: 36px;
@@ -1097,15 +1097,15 @@ footer p a {
 }
 .cabinet_section .cabinet_container .cabinet_slides {
   display: flex;
-  width: 100%;
-  transition: transform 0.5s ease;
+  width: 200%;
+  transition: transform 1s ease-in-out;
 }
 .cabinet_section .cabinet_container .cabinet_slide {
   width: 100%;
   flex-shrink: 0;
 }
 .cabinet_section .cabinet_container .cabinet_slide .cabinet_slide_title {
-  width: 100%;
+  width: 50%;
   padding: 0 1rem;
   font-size: 28px;
   font-weight: 400;
@@ -1115,14 +1115,18 @@ footer p a {
 .cabinet_section .cabinet_container .cabinet_slide .cabinet_slide_texte {
   -webkit-hyphens: auto;
           hyphens: auto;
-  width: 100%;
-  padding: 0 1rem;
+  width: 50%;
+  padding: 0 6px;
   margin: 0.5rem 0;
   font-size: 12px;
 }
 .cabinet_section .cabinet_container .cabinet_slide img {
-  width: 100vw;
+  width: 50%;
   display: block;
+  border-radius: 24px;
+  height: 356px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 768px) {
@@ -1151,8 +1155,8 @@ footer p a {
   }
   .cabinet_section .cabinet_container .cabinet_slides {
     display: flex;
-    width: 130%;
-    transition: transform 0.5s ease;
+    width: 400%;
+    transition: transform 1s ease-in-out;
   }
   .cabinet_section .cabinet_container .cabinet_slide {
     width: 100%;
@@ -1174,11 +1178,12 @@ footer p a {
     font-size: 20px;
   }
   .cabinet_section .cabinet_container .cabinet_slide img {
-    width: 100vw;
+    width: 25%;
     display: block;
     height: 624px;
     -o-object-fit: cover;
        object-fit: cover;
+    border-radius: 24px;
   }
 }
 @media (min-width: 1440px) {
@@ -1230,8 +1235,8 @@ footer p a {
   }
   .cabinet_section .cabinet_container .cabinet_slides {
     display: flex;
-    width: 100%;
-    transition: transform 0.5s ease;
+    width: 400%;
+    transition: transform 1s ease;
   }
   .cabinet_section .cabinet_container .cabinet_slide {
     width: 100%;
@@ -1241,6 +1246,7 @@ footer p a {
     flex-wrap: wrap;
     height: 624px;
     align-content: space-between;
+    padding-right: 75%;
   }
   .cabinet_section .cabinet_container .cabinet_slide .cabinet_slide_title {
     width: 33%;
