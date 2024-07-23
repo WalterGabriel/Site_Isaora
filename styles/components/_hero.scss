@@ -55,7 +55,7 @@
       border-radius: 8px;
       text-transform: uppercase;
 
-      transition:  ease-in-out 200ms, border-color ease-in-out 200ms, color ease-in-out 200ms;
+      transition:  ease-in-out 200ms, border-color ease-in-out 200ms, color ease-in-out 200ms, letter-spacing ease-in-out 200ms, padding ease-in-out 200ms;
       
       text-align: center;
       font-size: $paragraph-secondary;

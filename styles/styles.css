@@ -18,6 +18,12 @@
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
 }
 
+.header_infos_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .mentions_legales {
   color: #78443d;
   padding: 5% 3%;
@@ -349,7 +355,7 @@ header .header_nav--active ul li a:hover {
   padding: 16px 12px;
   border-radius: 8px;
   text-transform: uppercase;
-  transition: ease-in-out 200ms, border-color ease-in-out 200ms, color ease-in-out 200ms;
+  transition: ease-in-out 200ms, border-color ease-in-out 200ms, color ease-in-out 200ms, letter-spacing ease-in-out 200ms, padding ease-in-out 200ms;
   text-align: center;
   font-size: 16px;
   letter-spacing: 0.1em;
@@ -700,6 +706,7 @@ footer {
   display: block;
   text-align: center;
   font-size: 12px;
+  margin-top: 8rem;
   background-color: #78443d;
 }
 footer p {
@@ -1075,6 +1082,7 @@ footer p a {
 .cabinet_section {
   background-color: #995C54;
   color: #fff;
+  box-shadow: #995C54 0px 0px 4px 24px;
 }
 .cabinet_section .cabinet_container {
   padding: 2rem 1rem;
@@ -1193,7 +1201,7 @@ footer p a {
   }
   .cabinet_section .cabinet_container {
     padding: 2rem 13rem;
-    max-width: 1854px;
+    max-width: 1950px;
     margin: auto;
   }
   .cabinet_section .cabinet_container .cabinet_title {
@@ -1273,5 +1281,327 @@ footer p a {
        object-fit: cover;
     order: 2;
     border-radius: 24px;
+  }
+}
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #995C54;
+}
+
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
+}
+
+.parcours_section {
+  margin: 24px auto auto auto;
+}
+.parcours_section .parcours_container {
+  width: 100%;
+  margin: 42px auto;
+  padding: 2rem;
+  display: flex;
+  max-width: 1600px;
+  border-radius: 24px;
+  flex-wrap: wrap;
+}
+.parcours_section .parcours_container img {
+  border-radius: 24px;
+  border-style: none;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+.parcours_section .parcours_container .parcours_description {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: start;
+  padding: 0;
+  margin: 0;
+}
+.parcours_section .parcours_container .parcours_description .parcours_title {
+  font-size: 32px;
+  margin: 1rem 0 0 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+  line-height: 1.25em;
+}
+.parcours_section .parcours_container .parcours_description .parcours_texte {
+  font-size: 16px;
+  margin: 1rem 0;
+  width: 100%;
+}
+.parcours_section .parcours_container .parcours_description .parcours_buttons_container {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_secondary-button, .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button {
+  margin: 1rem 0 0 0;
+  padding: 16px 12px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  transition: ease-in-out 200ms, border-color ease-in-out 200ms, color ease-in-out 200ms, letter-spacing ease-in-out 200ms, padding ease-in-out 200ms;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+.parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button {
+  border: solid 2px transparent;
+  color: white;
+  background-color: #995C54;
+  width: 100%;
+  order: 2;
+}
+.parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button:hover {
+  background-color: #824941;
+  border: solid 2px transparent;
+  padding: 16px 12px;
+}
+.parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_secondary-button {
+  border: solid 2px #B3837D;
+  color: #B3837D;
+  background-color: #fff;
+  width: 100%;
+  order: 1;
+}
+.parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_secondary-button:hover {
+  color: #824941;
+  border: solid 2px #824941;
+  padding: 16px 12px;
+}
+
+@media (min-width: 768px) {
+  .parcours_section {
+    margin: 24px auto auto auto;
+  }
+  .parcours_section .parcours_container {
+    width: 80%;
+    margin: 42px auto;
+    padding: 2rem;
+    display: flex;
+    max-width: 1600px;
+    border-radius: 24px;
+  }
+  .parcours_section .parcours_container img {
+    border-radius: 24px;
+    border-style: none;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 40%;
+  }
+  .parcours_section .parcours_container .parcours_description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    align-content: start;
+    padding: 0;
+    margin: 0;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_title {
+    font-size: 32px;
+    margin: 0 0 1rem 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.15rem;
+    line-height: 1.25em;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_texte {
+    font-size: 20px;
+    margin: 0 0 1rem 1rem;
+    width: 100%;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_buttons_container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_secondary-button, .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button {
+    margin: 1rem 1rem 0 1rem;
+    padding: 16px 12px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: ease-in-out 200ms, border-color ease-in-out 200ms, color ease-in-out 200ms, letter-spacing ease-in-out 200ms, padding ease-in-out 200ms;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button {
+    border: solid 2px transparent;
+    color: white;
+    background-color: #995C54;
+    width: 100%;
+    order: 2;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button:hover {
+    background-color: #824941;
+    border: solid 2px transparent;
+    padding: 16px 12px;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_secondary-button {
+    border: solid 2px #B3837D;
+    color: #B3837D;
+    background-color: #fff;
+    width: 100%;
+    order: 1;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_secondary-button:hover {
+    color: #824941;
+    border: solid 2px #824941;
+    padding: 16px 12px;
+  }
+}
+@media (min-width: 1440px) {
+  .parcours_section {
+    margin: 24px auto auto auto;
+  }
+  .parcours_section .parcours_container {
+    width: 80%;
+    margin: 42px auto;
+    padding: 2rem;
+    display: flex;
+    max-width: 1600px;
+    border-radius: 24px;
+  }
+  .parcours_section .parcours_container img {
+    border-radius: 24px;
+    border-style: none;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 40%;
+  }
+  .parcours_section .parcours_container .parcours_description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 55%;
+    align-content: start;
+    padding: 2rem 2rem;
+    margin: 0rem 0 0 2rem;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_title {
+    font-size: 52px;
+    margin: 0 0 2rem 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.15rem;
+    line-height: 1.25em;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_texte {
+    font-size: 20px;
+    margin: 0 0 2rem 0;
+    width: 100%;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_buttons_container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_secondary-button, .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button {
+    margin: 0 0 0 1rem;
+    padding: 16px 12px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: ease-in-out 200ms, border-color ease-in-out 200ms, color ease-in-out 200ms, letter-spacing ease-in-out 200ms, padding ease-in-out 200ms;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button {
+    border: solid 2px transparent;
+    color: white;
+    background-color: #995C54;
+    width: auto;
+    order: 2;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button:hover {
+    background-color: #824941;
+    border: solid 2px transparent;
+    padding: 16px 12px;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_secondary-button {
+    border: solid 2px #B3837D;
+    color: #B3837D;
+    background-color: #fff;
+    width: auto;
+    order: 1;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_secondary-button:hover {
+    color: #824941;
+    border: solid 2px #824941;
+    padding: 16px 12px;
+  }
+}
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #995C54;
+}
+
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
+}
+
+@media screen and (min-width: 1440px) {
+  .contact_section .contact_container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .contact_section .contact_container .contact_message-box {
+    width: 42.5%;
+  }
+  .contact_section .contact_container .contact_message-box .contact_orange-stroke {
+    height: 8px;
+    border-radius: 0 24px 24px 0;
+    width: 100%;
+    background-color: #A86F58;
+    margin: 0 auto 0 0;
+  }
+  .contact_section .contact_container .contact_message-box .contact_green-stroke {
+    height: 8px;
+    border-radius: 24px 0 0 24px;
+    width: 100%;
+    background-color: #997F54;
+    margin: 0 0 0 auto;
+  }
+  .contact_section .contact_container .contact_message-box .contact_title {
+    font-size: 36px;
+    width: 100%;
+  }
+  .contact_section .contact_container .contact_message-box .contact_texte {
+    font-size: 18px;
+    padding: 0;
+    width: 100%;
+  }
+  .contact_section .contact_container .contact_message-box .contact_texte ul {
+    list-style: none;
+    padding: 0;
+  }
+  .contact_section .contact_container .contact_message-box .contact_texte table tbody tr:nth-of-type(2n) {
+    background-color: rgba(179, 158, 125, 0.1294117647);
+  }
+  .contact_section .contact_container .contact_message-box .contact_texte table tbody tr th, .contact_section .contact_container .contact_message-box .contact_texte table tbody tr td {
+    padding: 1rem;
+    text-align: left;
+  }
+  .contact_section .contact_container .contact_message-box .contact_align-right {
+    text-align: right;
+  }
+  .contact_section .contact_container .contact_message-box .contact_align-left {
+    text-align: left;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -4,6 +4,7 @@
 .cabinet_section {
   background-color: $isa-rouge-medium;
   color: $isa-white;
+  box-shadow: $isa-rouge-medium 0px 0px 4px 24px;
 
   .cabinet_container {
 
@@ -162,7 +163,7 @@
   .cabinet_container {
 
     padding: 2rem 13rem;
-    max-width: 1854px;
+    max-width: 1950px;
     margin: auto;
 
     .cabinet_title {

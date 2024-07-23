@@ -1,6 +1,15 @@
 @import '../abstract/base';
 @import '../abstract/variables';
 
+.header_infos_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+
 .mentions_legales {
   color: $isa-rouge-dark;
   padding: 5% 3%;

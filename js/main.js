@@ -41,7 +41,7 @@ function moveSlide(step) {
 function startAutoSlide() {
     interval = setInterval(() => {
         moveSlide(1);
-    }, 6000); // Change slide every 3 seconds
+    }, 10000); // Change slide every 10 seconds
 }
 
 function resetInterval() {
