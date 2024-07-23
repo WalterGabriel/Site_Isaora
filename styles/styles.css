@@ -1581,6 +1581,7 @@ footer p a {
   .contact_section .contact_container .contact_message-box .contact_title {
     font-size: 36px;
     width: 100%;
+    margin: 1rem 0;
   }
   .contact_section .contact_container .contact_message-box .contact_texte {
     font-size: 18px;
