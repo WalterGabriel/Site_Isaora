@@ -1,7 +1,7 @@
 :root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #995C54;
+  color: #995c54;
 }
 
 .material-symbols-rounded {
@@ -11,7 +11,7 @@
 :root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #995C54;
+  color: #995c54;
 }
 
 .material-symbols-rounded {
@@ -47,7 +47,7 @@
 :root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #995C54;
+  color: #995c54;
 }
 
 .material-symbols-rounded {
@@ -300,7 +300,7 @@ header .header_nav--active ul li a:hover {
 :root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #995C54;
+  color: #995c54;
 }
 
 .material-symbols-rounded {
@@ -496,7 +496,7 @@ header .header_nav--active ul li a:hover {
 :root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #995C54;
+  color: #995c54;
 }
 
 .material-symbols-rounded {
@@ -678,7 +678,7 @@ header .header_nav--active ul li a:hover {
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 0.1em;
-    background-color: #995C54;
+    background-color: #995c54;
     border-radius: 12px;
     padding: 24px;
     transition: ease 200ms;
@@ -695,7 +695,7 @@ header .header_nav--active ul li a:hover {
 :root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #995C54;
+  color: #995c54;
 }
 
 .material-symbols-rounded {
@@ -721,7 +721,7 @@ footer p a {
 :root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #995C54;
+  color: #995c54;
 }
 
 .material-symbols-rounded {
@@ -832,8 +832,8 @@ footer p a {
   font-weight: 500;
   color: white;
   transition: border-color ease-in-out 200ms, background-color ease-in-out 200ms;
-  background-color: #995C54;
-  border: solid 2px #995C54;
+  background-color: #995c54;
+  border: solid 2px #995c54;
 }
 .motifs_link-button:hover {
   background-color: #824941;
@@ -946,8 +946,8 @@ footer p a {
     color: white;
     transition: border-color ease-in-out 200ms, background-color ease-in-out 200ms;
     align-self: end;
-    background-color: #995C54;
-    border: solid 2px #995C54;
+    background-color: #995c54;
+    border: solid 2px #995c54;
   }
   .motifs_link-button:hover {
     background-color: #824941;
@@ -1058,9 +1058,9 @@ footer p a {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 500;
-    border: solid 2px #995C54;
+    border: solid 2px #995c54;
     color: white;
-    background-color: #995C54;
+    background-color: #995c54;
     transition: background-color ease-in-out 200ms;
     align-self: end;
   }
@@ -1072,7 +1072,7 @@ footer p a {
 :root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #995C54;
+  color: #995c54;
 }
 
 .material-symbols-rounded {
@@ -1080,9 +1080,9 @@ footer p a {
 }
 
 .cabinet_section {
-  background-color: #995C54;
+  background-color: #995c54;
   color: #fff;
-  box-shadow: #995C54 0px 0px 4px 24px;
+  box-shadow: #995c54 0px 0px 4px 24px;
 }
 .cabinet_section .cabinet_container {
   padding: 2rem 1rem;
@@ -1139,7 +1139,7 @@ footer p a {
 
 @media (min-width: 768px) {
   .cabinet_section {
-    background-color: #995C54;
+    background-color: #995c54;
     color: #fff;
   }
   .cabinet_section .cabinet_container {
@@ -1196,7 +1196,7 @@ footer p a {
 }
 @media (min-width: 1440px) {
   .cabinet_section {
-    background-color: #995C54;
+    background-color: #995c54;
     color: #fff;
   }
   .cabinet_section .cabinet_container {
@@ -1226,7 +1226,7 @@ footer p a {
     position: relative;
     background-color: rgba(255, 255, 255, 0.756);
     transition: background-color ease 120ms;
-    color: #995C54;
+    color: #995c54;
     border: none;
     cursor: pointer;
     border-radius: 50%;
@@ -1286,7 +1286,7 @@ footer p a {
 :root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #995C54;
+  color: #995c54;
 }
 
 .material-symbols-rounded {
@@ -1354,7 +1354,7 @@ footer p a {
 .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button {
   border: solid 2px transparent;
   color: white;
-  background-color: #995C54;
+  background-color: #995c54;
   width: 100%;
   order: 2;
 }
@@ -1437,7 +1437,7 @@ footer p a {
   .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button {
     border: solid 2px transparent;
     color: white;
-    background-color: #995C54;
+    background-color: #995c54;
     width: 100%;
     order: 2;
   }
@@ -1520,7 +1520,7 @@ footer p a {
   .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button {
     border: solid 2px transparent;
     color: white;
-    background-color: #995C54;
+    background-color: #995c54;
     width: auto;
     order: 2;
   }
@@ -1545,13 +1545,138 @@ footer p a {
 :root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #995C54;
+  color: #995c54;
 }
 
 .material-symbols-rounded {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
 }
 
+.contact_section .contact_container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact_section .contact_container .contact_message-box {
+  width: 100%;
+  margin: 0 0 4rem 0;
+}
+.contact_section .contact_container .contact_message-box .contact_orange-stroke {
+  height: 8px;
+  border-radius: 0 24px 24px 0;
+  width: 50%;
+  background-color: #A86F58;
+  margin: 0 auto 0 0;
+}
+.contact_section .contact_container .contact_message-box .contact_green-stroke {
+  height: 8px;
+  border-radius: 24px 0 0 24px;
+  width: calc(100% - 2rem);
+  background-color: #997F54;
+  margin: 0 0 0 auto;
+}
+.contact_section .contact_container .contact_message-box .contact_title {
+  font-size: 36px;
+  width: 100%;
+  margin: 1rem 0;
+}
+.contact_section .contact_container .contact_message-box .contact_texte {
+  font-size: 18px;
+  padding: 0;
+  width: 100%;
+}
+.contact_section .contact_container .contact_message-box .contact_texte .contact_reseaux {
+  color: #995c54 !important;
+  font-size: 32px;
+}
+.contact_section .contact_container .contact_message-box .contact_texte .contact_reseaux a {
+  padding: 0.5rem;
+}
+.contact_section .contact_container .contact_message-box .contact_texte ul {
+  list-style: none;
+  padding: 0;
+}
+.contact_section .contact_container .contact_message-box .contact_texte table {
+  width: 100%;
+}
+.contact_section .contact_container .contact_message-box .contact_texte table tbody tr:nth-of-type(2n) {
+  background-color: rgba(179, 158, 125, 0.1294117647);
+}
+.contact_section .contact_container .contact_message-box .contact_texte table tbody tr th, .contact_section .contact_container .contact_message-box .contact_texte table tbody tr td {
+  padding: 1rem;
+  text-align: left;
+}
+.contact_section .contact_container .contact_message-box .contact_align-right {
+  text-align: left;
+  padding: 0 2rem;
+}
+.contact_section .contact_container .contact_message-box .contact_align-left {
+  text-align: left;
+  padding: 0 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .contact_section .contact_container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .contact_section .contact_container .contact_message-box {
+    width: 42.5%;
+  }
+  .contact_section .contact_container .contact_message-box .contact_orange-stroke {
+    height: 8px;
+    border-radius: 0 24px 24px 0;
+    width: 100%;
+    background-color: #A86F58;
+    margin: 0 auto 0 0;
+  }
+  .contact_section .contact_container .contact_message-box .contact_green-stroke {
+    height: 8px;
+    border-radius: 24px 0 0 24px;
+    width: 100%;
+    background-color: #997F54;
+    margin: 0 0 0 auto;
+  }
+  .contact_section .contact_container .contact_message-box .contact_title {
+    font-size: 36px;
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .contact_section .contact_container .contact_message-box .contact_texte {
+    font-size: 18px;
+    padding: 0;
+    width: 100%;
+  }
+  .contact_section .contact_container .contact_message-box .contact_texte ul {
+    list-style: none;
+    padding: 0;
+  }
+  .contact_section .contact_container .contact_message-box .contact_texte table {
+    width: auto;
+  }
+  .contact_section .contact_container .contact_message-box .contact_texte table tbody tr:nth-of-type(2n) {
+    background-color: rgba(179, 158, 125, 0.1294117647);
+  }
+  .contact_section .contact_container .contact_message-box .contact_texte table tbody tr th, .contact_section .contact_container .contact_message-box .contact_texte table tbody tr td {
+    padding: 1rem;
+    text-align: left;
+  }
+  .contact_section .contact_container .contact_message-box .contact_align-right {
+    text-align: right;
+    padding: 0;
+  }
+  .contact_section .contact_container .contact_message-box .contact_align-left {
+    text-align: left;
+    padding: 0;
+  }
+}
 @media screen and (min-width: 1440px) {
   .contact_section .contact_container {
     width: 100%;
@@ -1592,6 +1717,9 @@ footer p a {
     list-style: none;
     padding: 0;
   }
+  .contact_section .contact_container .contact_message-box .contact_texte table {
+    width: auto;
+  }
   .contact_section .contact_container .contact_message-box .contact_texte table tbody tr:nth-of-type(2n) {
     background-color: rgba(179, 158, 125, 0.1294117647);
   }
@@ -1601,8 +1729,227 @@ footer p a {
   }
   .contact_section .contact_container .contact_message-box .contact_align-right {
     text-align: right;
+    padding: 0;
   }
   .contact_section .contact_container .contact_message-box .contact_align-left {
     text-align: left;
+    padding: 0;
+  }
+}
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #995c54;
+}
+
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
+}
+
+.mon-parcours_section h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  line-height: 1.25em;
+  margin: 2rem;
+}
+.mon-parcours_section .mon-parcours_container {
+  display: flex;
+  flex-direction: row;
+}
+.mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_graphics .mon-parcours_graphics_img {
+  content: url("../../assets/icons/SVG/pattern-green.svg");
+}
+.mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_graphics .mon-parcours_graphics_stroke {
+  background-color: #997F54;
+}
+.mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_text-box .mon-parcours_text-box_titre {
+  color: #997F54;
+}
+.mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_text-box .mon-parcours_text-box_date {
+  color: #997F54;
+}
+.mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_text-box .mon-parcours_text-box_titre {
+  color: #997F54;
+}
+.mon-parcours_section .mon-parcours_container .mon-parcours_graphics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 64px;
+  padding: 0 0 0 0.5rem;
+}
+.mon-parcours_section .mon-parcours_container .mon-parcours_graphics .mon-parcours_graphics_img {
+  margin: 1rem 0;
+  width: 56px;
+  content: url("../../assets/icons/SVG/pattern-red.svg");
+}
+.mon-parcours_section .mon-parcours_container .mon-parcours_graphics .mon-parcours_graphics_stroke {
+  width: 8px;
+  height: 100%;
+  min-height: 150px;
+  border-radius: 4px;
+  background-color: #995c54;
+}
+.mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_date {
+  padding: 0 0 0 1rem;
+}
+.mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_titre {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+  color: #995c54;
+  padding: 0 2rem 0 0;
+  -webkit-hyphens: none;
+          hyphens: none;
+}
+.mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_description {
+  -webkit-hyphens: auto;
+          hyphens: auto;
+  padding: 0 2rem 0 0;
+  text-align: justify;
+  color: #545454;
+}
+
+@media screen and (min-width: 768px) {
+  .mon-parcours_section h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    line-height: 1.25em;
+    width: 80%;
+    margin: 4rem 5rem 2rem 5rem;
+    max-width: 768px;
+  }
+  .mon-parcours_section .mon-parcours_container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 5rem;
+    max-width: 768px;
+  }
+  .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_graphics .mon-parcours_graphics_img {
+    content: url("../../assets/icons/SVG/pattern-green.svg");
+  }
+  .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_graphics .mon-parcours_graphics_stroke {
+    background-color: #997F54;
+  }
+  .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_text-box .mon-parcours_text-box_titre {
+    color: #997F54;
+  }
+  .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_text-box .mon-parcours_text-box_date {
+    color: #997F54;
+  }
+  .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_text-box .mon-parcours_text-box_titre {
+    color: #997F54;
+  }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_graphics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 64px;
+    padding: 0 0 0 0.5rem;
+  }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_graphics .mon-parcours_graphics_img {
+    margin: 1rem 0;
+    width: 56px;
+    content: url("../../assets/icons/SVG/pattern-red.svg");
+  }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_graphics .mon-parcours_graphics_stroke {
+    width: 8px;
+    height: 100%;
+    min-height: 150px;
+    border-radius: 4px;
+    background-color: #995c54;
+  }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_date {
+    padding: 0 0 0 1rem;
+  }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_titre {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+    color: #995c54;
+    padding: 0 2rem 0 0;
+    -webkit-hyphens: none;
+            hyphens: none;
+  }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_description {
+    -webkit-hyphens: auto;
+            hyphens: auto;
+    padding: 0 2rem 0 0;
+    text-align: justify;
+    color: #545454;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .mon-parcours_section h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    line-height: 1.25em;
+    width: 50%;
+    margin: 4rem 13rem 2rem 13rem;
+    max-width: 824px;
+  }
+  .mon-parcours_section .mon-parcours_container {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 13rem;
+    max-width: 824px;
+  }
+  .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_graphics .mon-parcours_graphics_img {
+    content: url("../../assets/icons/SVG/pattern-green.svg");
+  }
+  .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_graphics .mon-parcours_graphics_stroke {
+    background-color: #997F54;
+  }
+  .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_text-box .mon-parcours_text-box_titre {
+    color: #997F54;
+  }
+  .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_text-box .mon-parcours_text-box_date {
+    color: #997F54;
+  }
+  .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_text-box .mon-parcours_text-box_titre {
+    color: #997F54;
+  }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_graphics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 64px;
+    padding: 0 0 0 0.5rem;
+  }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_graphics .mon-parcours_graphics_img {
+    margin: 1rem 0;
+    width: 56px;
+    content: url("../../assets/icons/SVG/pattern-red.svg");
+  }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_graphics .mon-parcours_graphics_stroke {
+    width: 8px;
+    height: 100%;
+    min-height: 150px;
+    border-radius: 4px;
+    background-color: #995c54;
+  }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_date {
+    padding: 0 0 0 1rem;
+  }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_titre {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+    color: #995c54;
+    padding: 0 2rem 0 0;
+    -webkit-hyphens: none;
+            hyphens: none;
+  }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_description {
+    -webkit-hyphens: auto;
+            hyphens: auto;
+    padding: 0 2rem 0 0;
+    text-align: justify;
+    color: #545454;
   }
 }/*# sourceMappingURL=styles.css.map */

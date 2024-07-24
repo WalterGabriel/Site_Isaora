@@ -1,0 +1,430 @@
+@import '../abstract/base';
+@import '../abstract/variables';
+
+.mon-parcours_section {
+
+  h1 {
+
+    font-size:  $h2;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    line-height: 1.25em;
+
+    margin: 2rem;
+  }
+
+  .mon-parcours_container {
+    display: flex;
+    flex-direction: row;
+
+    //PAIRS DIFERENCES
+    &:nth-of-type(2n) {
+
+      .mon-parcours_graphics {
+
+  
+        .mon-parcours_graphics_img {
+
+          content: url('../../assets/icons/SVG/pattern-green.svg');
+  
+        }
+  
+  
+  
+        .mon-parcours_graphics_stroke{
+          background-color: $isa-vert-medium;
+          
+        }
+
+  
+      }
+
+      .mon-parcours_text-box {
+
+        .mon-parcours_text-box_date {
+          
+        }
+  
+        .mon-parcours_text-box_titre {
+
+          color: $isa-vert-medium;
+        }
+  
+        .mon-parcours_text-box_description{
+
+        }
+  
+      }  
+      
+      .mon-parcours_text-box {
+
+        .mon-parcours_text-box_date {
+          
+          color: $isa-vert-medium;
+        }
+  
+        .mon-parcours_text-box_titre {
+
+          color: $isa-vert-medium;
+        }
+  
+        .mon-parcours_text-box_description{
+
+        }
+  
+      }
+
+    }
+
+    // GENERAL STYLES
+    .mon-parcours_graphics {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 64px;
+      padding: 0 0 0 .5rem;
+
+
+      .mon-parcours_graphics_img {
+        margin: 1rem 0;
+        width: 56px;
+        content: url('../../assets/icons/SVG/pattern-red.svg');
+
+      }
+
+
+
+      .mon-parcours_graphics_stroke{
+        width: 8px;
+        height: 100%;
+        min-height: 150px;
+        border-radius: 4px;
+        background-color: $isa-rouge-medium;
+        
+      }
+
+
+    }
+
+    .mon-parcours_text-box {
+
+      .mon-parcours_text-box_date {
+        padding: 0 0 0 1rem;
+      }
+
+      .mon-parcours_text-box_titre {
+        text-transform: uppercase;
+        font-weight: $regular;
+        margin: 0;
+        color: $isa-rouge-medium;
+        padding: 0 2rem 0 0;
+        hyphens: none;
+      }
+
+      .mon-parcours_text-box_description{
+        hyphens: auto;
+        padding: 0 2rem 0 0;
+        text-align: justify;
+        color: #545454;
+      }
+
+    }
+
+  }
+
+
+}
+
+
+@media screen and (min-width:768px ) {
+
+  .mon-parcours_section {
+
+    h1 {
+      font-size: $h1;
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+      line-height: 1.25em;
+  
+      width: 80%;
+      margin: 4rem 5rem 2rem 5rem;
+      max-width: 768px;
+  
+    }
+
+    .mon-parcours_container {
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      margin: 0 5rem;
+      max-width: 768px;
+  
+      //PAIRS DIFERENCES
+      &:nth-of-type(2n) {
+  
+        .mon-parcours_graphics {
+  
+    
+          .mon-parcours_graphics_img {
+  
+            content: url('../../assets/icons/SVG/pattern-green.svg');
+    
+          }
+    
+    
+    
+          .mon-parcours_graphics_stroke{
+            background-color: $isa-vert-medium;
+            
+          }
+  
+    
+        }
+  
+        .mon-parcours_text-box {
+  
+          .mon-parcours_text-box_date {
+            
+          }
+    
+          .mon-parcours_text-box_titre {
+  
+            color: $isa-vert-medium;
+          }
+    
+          .mon-parcours_text-box_description{
+  
+          }
+    
+        }  
+        
+        .mon-parcours_text-box {
+  
+          .mon-parcours_text-box_date {
+            
+            color: $isa-vert-medium;
+          }
+    
+          .mon-parcours_text-box_titre {
+  
+            color: $isa-vert-medium;
+          }
+    
+          .mon-parcours_text-box_description{
+  
+          }
+    
+        }
+  
+      }
+  
+      // GENERAL STYLES
+      .mon-parcours_graphics {
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 64px;
+        padding: 0 0 0 .5rem;
+  
+  
+        .mon-parcours_graphics_img {
+          margin: 1rem 0;
+          width: 56px;
+          content: url('../../assets/icons/SVG/pattern-red.svg');
+  
+        }
+  
+  
+  
+        .mon-parcours_graphics_stroke{
+          width: 8px;
+          height: 100%;
+          min-height: 150px;
+          border-radius: 4px;
+          background-color: $isa-rouge-medium;
+          
+        }
+  
+  
+      }
+  
+      .mon-parcours_text-box {
+  
+        .mon-parcours_text-box_date {
+          padding: 0 0 0 1rem;
+        }
+  
+        .mon-parcours_text-box_titre {
+          text-transform: uppercase;
+          font-weight: $regular;
+          margin: 0;
+          color: $isa-rouge-medium;
+          padding: 0 2rem 0 0;
+          hyphens: none;
+        }
+  
+        .mon-parcours_text-box_description{
+          hyphens: auto;
+          padding: 0 2rem 0 0;
+          text-align: justify;
+          color: #545454;
+        }
+  
+      }
+  
+    }
+  
+  
+  }
+
+
+}
+
+
+@media screen and (min-width:1440px ) {
+
+  .mon-parcours_section {
+
+    h1 {
+      font-size: $h1;
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+      line-height: 1.25em;
+  
+      width: 50%;
+      margin: 4rem 13rem 2rem 13rem;
+      max-width: 824px;
+  
+    }
+
+
+    .mon-parcours_container {
+      display: flex;
+      flex-direction: row;
+      width: 50%;
+      margin: 0 13rem;
+      max-width: 824px;
+  
+      //PAIRS DIFERENCES
+      &:nth-of-type(2n) {
+  
+        .mon-parcours_graphics {
+  
+    
+          .mon-parcours_graphics_img {
+  
+            content: url('../../assets/icons/SVG/pattern-green.svg');
+    
+          }
+    
+    
+    
+          .mon-parcours_graphics_stroke{
+            background-color: $isa-vert-medium;
+            
+          }
+  
+    
+        }
+  
+        .mon-parcours_text-box {
+  
+          .mon-parcours_text-box_date {
+            
+          }
+    
+          .mon-parcours_text-box_titre {
+  
+            color: $isa-vert-medium;
+          }
+    
+          .mon-parcours_text-box_description{
+  
+          }
+    
+        }  
+        
+        .mon-parcours_text-box {
+  
+          .mon-parcours_text-box_date {
+            
+            color: $isa-vert-medium;
+          }
+    
+          .mon-parcours_text-box_titre {
+  
+            color: $isa-vert-medium;
+          }
+    
+          .mon-parcours_text-box_description{
+  
+          }
+    
+        }
+  
+      }
+  
+      // GENERAL STYLES
+      .mon-parcours_graphics {
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 64px;
+        padding: 0 0 0 .5rem;
+  
+  
+        .mon-parcours_graphics_img {
+          margin: 1rem 0;
+          width: 56px;
+          content: url('../../assets/icons/SVG/pattern-red.svg');
+  
+        }
+  
+  
+  
+        .mon-parcours_graphics_stroke{
+          width: 8px;
+          height: 100%;
+          min-height: 150px;
+          border-radius: 4px;
+          background-color: $isa-rouge-medium;
+          
+        }
+  
+  
+      }
+  
+      .mon-parcours_text-box {
+  
+        .mon-parcours_text-box_date {
+          padding: 0 0 0 1rem;
+        }
+  
+        .mon-parcours_text-box_titre {
+          text-transform: uppercase;
+          font-weight: $regular;
+          margin: 0;
+          color: $isa-rouge-medium;
+          padding: 0 2rem 0 0;
+          hyphens: none;
+        }
+  
+        .mon-parcours_text-box_description{
+          hyphens: auto;
+          padding: 0 2rem 0 0;
+          text-align: justify;
+          color: #545454;
+        }
+  
+      }
+  
+    }
+  
+  
+  }
+
+
+}
