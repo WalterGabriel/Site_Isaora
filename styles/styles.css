@@ -1759,7 +1759,7 @@ footer p a {
   flex-direction: row;
 }
 .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_graphics .mon-parcours_graphics_img {
-  content: url("../../assets/icons/pattern-green.svg");
+  content: url("../assets/icons/pattern-green.svg");
 }
 .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_graphics .mon-parcours_graphics_stroke {
   background-color: #997F54;
@@ -1783,7 +1783,7 @@ footer p a {
 .mon-parcours_section .mon-parcours_container .mon-parcours_graphics .mon-parcours_graphics_img {
   margin: 1rem 0;
   width: 56px;
-  content: url("../../assets/icons/pattern-red.svg");
+  content: url("../assets/icons/pattern-red.svg");
 }
 .mon-parcours_section .mon-parcours_container .mon-parcours_graphics .mon-parcours_graphics_stroke {
   width: 8px;
@@ -1832,7 +1832,7 @@ footer p a {
     max-width: 768px;
   }
   .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_graphics .mon-parcours_graphics_img {
-    content: url("../../assets/icons/pattern-green.svg");
+    content: url("../assets/icons/pattern-green.svg");
   }
   .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_graphics .mon-parcours_graphics_stroke {
     background-color: #997F54;
@@ -1856,7 +1856,7 @@ footer p a {
   .mon-parcours_section .mon-parcours_container .mon-parcours_graphics .mon-parcours_graphics_img {
     margin: 1rem 0;
     width: 56px;
-    content: url("../../assets/icons/pattern-red.svg");
+    content: url("../assets/icons/pattern-red.svg");
   }
   .mon-parcours_section .mon-parcours_container .mon-parcours_graphics .mon-parcours_graphics_stroke {
     width: 8px;
@@ -1905,7 +1905,7 @@ footer p a {
     max-width: 824px;
   }
   .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_graphics .mon-parcours_graphics_img {
-    content: url("../../assets/icons/pattern-green.svg");
+    content: url("../assets/icons/pattern-green.svg");
   }
   .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_graphics .mon-parcours_graphics_stroke {
     background-color: #997F54;
@@ -1929,7 +1929,7 @@ footer p a {
   .mon-parcours_section .mon-parcours_container .mon-parcours_graphics .mon-parcours_graphics_img {
     margin: 1rem 0;
     width: 56px;
-    content: url("../../assets/icons/pattern-red.svg");
+    content: url("../assets/icons/pattern-red.svg");
   }
   .mon-parcours_section .mon-parcours_container .mon-parcours_graphics .mon-parcours_graphics_stroke {
     width: 8px;
@@ -2261,25 +2261,25 @@ footer p a {
      object-fit: cover;
 }
 .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #bilan {
-  content: url("../../assets/imgs/mobile/1-bilan_mobile.jpg");
+  content: url("../assets/imgs/mobile/1-bilan_mobile.jpg");
 }
 .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #examen {
-  content: url("../../assets/imgs/mobile/2-examen_mobile.jpg");
+  content: url("../assets/imgs/mobile/2-examen_mobile.jpg");
 }
 .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #diagnostic {
-  content: url("../../assets/imgs/mobile/3-diagnostic_mobile.jpg");
+  content: url("../assets/imgs/mobile/3-diagnostic_mobile.jpg");
 }
 .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #plan {
-  content: url("../../assets/imgs/mobile/4-plan_mobile.jpg");
+  content: url("../assets/imgs/mobile/4-plan_mobile.jpg");
 }
 .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #traitement {
-  content: url("../../assets/imgs/mobile/5-traitement_mobile.jpg");
+  content: url("../assets/imgs/mobile/5-traitement_mobile.jpg");
 }
 .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #diagnostique-final {
-  content: url("../../assets/imgs/mobile/6-diagnostique-final_mobile.jpg");
+  content: url("../assets/imgs/mobile/6-diagnostique-final_mobile.jpg");
 }
 .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #suivi {
-  content: url("../../assets/imgs/mobile/7-suivi_mobile.jpg");
+  content: url("../assets/imgs/mobile/7-suivi_mobile.jpg");
 }
 .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description .consultation_text-box_text {
   font-size: 16px;
@@ -2395,25 +2395,25 @@ footer p a {
        object-fit: cover;
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #bilan {
-    content: url("../../assets/imgs/tablet/1-bilan_tablet.jpg");
+    content: url("../assets/imgs/tablet/1-bilan_tablet.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #examen {
-    content: url("../../assets/imgs/tablet/2-examen_tablet.jpg");
+    content: url("../assets/imgs/tablet/2-examen_tablet.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #diagnostic {
-    content: url("../../assets/imgs/tablet/3-diagnostic_tablet.jpg");
+    content: url("../assets/imgs/tablet/3-diagnostic_tablet.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #plan {
-    content: url("../../assets/imgs/tablet/4-plan_tablet.jpg");
+    content: url("../assets/imgs/tablet/4-plan_tablet.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #traitement {
-    content: url("../../assets/imgs/tablet/5-traitement_tablet.jpg");
+    content: url("../assets/imgs/tablet/5-traitement_tablet.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #diagnostique-final {
-    content: url("../../assets/imgs/tablet/6-diagnostique-final_tablet.jpg");
+    content: url("../assets/imgs/tablet/6-diagnostique-final_tablet.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #suivi {
-    content: url("../../assets/imgs/tablet/7-suivi_tablet.jpg");
+    content: url("../assets/imgs/tablet/7-suivi_tablet.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description .consultation_text-box_text {
     font-size: 18px;
@@ -2532,25 +2532,25 @@ footer p a {
        object-fit: cover;
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #bilan {
-    content: url("../../assets/imgs/desktop/1-bilan_desktop.jpg");
+    content: url("../assets/imgs/desktop/1-bilan_desktop.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #examen {
-    content: url("../../assets/imgs/desktop/2-examen_desktop.jpg");
+    content: url("../assets/imgs/desktop/2-examen_desktop.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #diagnostic {
-    content: url("../../assets/imgs/desktop/3-diagnostic_desktop.jpg");
+    content: url("../assets/imgs/desktop/3-diagnostic_desktop.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #plan {
-    content: url("../../assets/imgs/desktop/4-plan_desktop.jpg");
+    content: url("../assets/imgs/desktop/4-plan_desktop.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #traitement {
-    content: url("../../assets/imgs/desktop/5-traitement_desktop.jpg");
+    content: url("../assets/imgs/desktop/5-traitement_desktop.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #diagnostique-final {
-    content: url("../../assets/imgs/desktop/6-diagnostique-final_desktop.jpg");
+    content: url("../assets/imgs/desktop/6-diagnostique-final_desktop.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description #suivi {
-    content: url("../../assets/imgs/desktop/7-suivi_desktop.jpg");
+    content: url("../assets/imgs/desktop/7-suivi_desktop.jpg");
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description .consultation_text-box_text {
     font-size: 18px;
