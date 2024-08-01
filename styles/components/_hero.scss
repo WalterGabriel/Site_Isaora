@@ -30,6 +30,7 @@
 
     .hero_paragraph{
       font-size: $paragraph-secondary;
+      color: $isa-black;
       margin: 0 0 2rem 0;
       hyphens: auto;
     }
@@ -99,7 +100,7 @@
       }
   
       .hero_paragraph{
-        font-size: $paragraph-secondary;
+        font-size: $paragraph-lead;
         margin: 0 0 2rem 0;
       }
 

@@ -1,0 +1,324 @@
+@import '../abstract/base';
+@import '../abstract/variables';
+
+.osteopathie_section {
+
+  h1 {
+
+    font-size:  $h2;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    line-height: 1.25em;
+
+    margin: 2rem 1rem 1rem;
+  }
+
+  .osteopathie_container {
+        .osteopathie_text-box {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 1rem;
+      margin: 2rem 0 0;
+
+      .osteopathie_text-box_titre{
+        display: flex;
+        hyphens: none;
+        margin: 0;
+
+        text-transform: uppercase;
+        font-weight: $regular;
+        color: $isa-rouge-medium;
+
+        &::before {
+          display: flex;
+          flex-wrap: wrap;
+          content: "";
+          width: 8px;
+          background-color: $isa-rouge-medium;
+          height: 100%;
+          margin-right: .5rem;
+          border-radius: 4px;
+
+
+        }
+
+      }
+
+      .osteopathie_text-box_accordeon-item{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+          color: $highlight-hover;
+        }
+
+        .osteopathie_text-box_list-icon{
+          font-size: 36px;
+          margin: 1rem 1rem 1rem .5rem;
+
+
+
+        }
+
+        .osteopathie_text-box_accordeon-contenu {
+
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.3s ease;
+        }
+
+        .material-symbols-rounded {
+          transition: transform 0.3s ease;
+        }
+
+        .material-symbols-rounded.rotate {
+          transform: rotate(90deg); /* Rotate the icon when expanded */
+        }
+      }
+      
+
+      .osteopathie_text-box_description {
+
+        font-size: $paragraph-secondary;
+
+        padding: 0 1rem;
+        hyphens: auto;
+      
+        text-align: justify;
+        color: $isa-black;
+      }
+
+      ul {
+        color: #545454;
+        line-height: 1.75rem;
+        margin: 0;
+      }
+    }
+  }
+
+
+
+}
+
+@media screen and (min-width : 768px) {
+  
+  .osteopathie_section {
+
+    h1 {
+  
+      font-size:  $h1;
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+      line-height: 1.25em;
+      
+      width: 80%;
+      max-width: 768px;
+      margin: 4rem 5rem 2rem 5rem;
+    }
+  
+    .osteopathie_container {
+      width: 80%;
+      margin: 0 5rem;
+      max-width: 768px;
+
+
+      .osteopathie_text-box {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 2rem 0 0;
+
+        .osteopathie_text-box_titre{
+          display: flex;
+          hyphens: none;
+          margin: 0;
+    
+          text-transform: uppercase;
+          font-weight: $regular;
+          color: $isa-rouge-medium;
+    
+          &::before {
+            display: flex;
+            flex-wrap: wrap;
+            content: "";
+            width: 8px;
+            background-color: $isa-rouge-medium;
+            height: 100%;
+            margin: 0 .5rem 0 .25rem;;
+            border-radius: 4px;
+    
+    
+          }
+  
+        }
+    
+        .osteopathie_text-box_accordeon-item{
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          cursor: pointer;
+    
+          &:hover {
+            color: $highlight-hover;
+          }
+    
+          .osteopathie_text-box_list-icon{
+            font-size: 36px;
+            margin: 1rem 1rem 1rem .5rem;
+    
+    
+    
+          }
+    
+          .osteopathie_text-box_accordeon-contenu {
+    
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+          }
+    
+          .material-symbols-rounded {
+            transition: transform 0.3s ease;
+          }
+    
+          .material-symbols-rounded.rotate {
+            transform: rotate(90deg); /* Rotate the icon when expanded */
+          }
+        }
+        
+    
+        .osteopathie_text-box_description {
+          font-size: $paragraph;
+          padding: 0 1rem;
+          hyphens: auto;
+        
+          text-align: justify;
+          color: $isa-black;
+        }
+    
+        ul {
+          color: #545454;
+          line-height: 1.75rem;
+          margin: 0;
+        }
+      }
+    }
+
+  
+  }
+
+
+}
+
+@media screen and (min-width : 1440px) {
+  
+  .osteopathie_section {
+
+    h1 {
+  
+      font-size:  $h1;
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+      line-height: 1.25em;
+      
+      width: 50%;
+      margin: 4rem 13rem 2rem 13rem;
+      max-width: 824px;
+    }
+  
+    .osteopathie_container {
+
+      width: 50%;
+      margin: 0 13rem;
+      max-width: 824px;
+
+
+      .osteopathie_text-box {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 2rem 0 0;
+
+        .osteopathie_text-box_titre{
+          display: flex;
+          hyphens: none;
+          margin: 0;
+    
+          text-transform: uppercase;
+          font-weight: $regular;
+          color: $isa-rouge-medium;
+    
+          &::before {
+            display: flex;
+            flex-wrap: wrap;
+            content: "";
+            width: 8px;
+            background-color: $isa-rouge-medium;
+            height: 100%;
+            margin: 0 .5rem 0 .25rem;;
+            border-radius: 4px;
+    
+    
+          }
+  
+        }
+    
+        .osteopathie_text-box_accordeon-item{
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          cursor: pointer;
+    
+          &:hover {
+            color: $highlight-hover;
+          }
+    
+          .osteopathie_text-box_list-icon{
+            font-size: 36px;
+            margin: 1rem 1rem 1rem .5rem;
+    
+    
+    
+          }
+    
+          .osteopathie_text-box_accordeon-contenu {
+    
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+          }
+    
+          .material-symbols-rounded {
+            transition: transform 0.3s ease;
+          }
+    
+          .material-symbols-rounded.rotate {
+            transform: rotate(90deg); /* Rotate the icon when expanded */
+          }
+        }
+        
+    
+        .osteopathie_text-box_description {
+          font-size: $paragraph;
+          padding: 0 1rem;
+          hyphens: auto;
+        
+          text-align: justify;
+          color: $isa-black;
+        }
+    
+        ul {
+          color: #545454;
+          line-height: 1.75rem;
+          margin: 0;
+        }
+      }
+    }
+
+  
+  }
+
+
+}

@@ -1,0 +1,544 @@
+@import '../abstract/base';
+@import '../abstract/variables';
+
+//CONSULTATION ET CONTACT
+
+.consultation_section {
+
+  h1 {
+
+    font-size:  $h2;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    line-height: 1.25em;
+
+    margin: 2rem 1rem 1rem;
+  }
+
+  .consultation_container {
+      .consultation_text-box {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 1rem;
+      margin: 2rem 0 0;
+
+      .consultation_text-box_titre{
+        width: 100%;
+
+        display: flex;
+        hyphens: none;
+        margin: 0 ;
+
+        text-transform: uppercase;
+        font-weight: $regular;
+        color: $isa-rouge-medium;
+
+        &::before {
+          display: flex;
+          flex-wrap: wrap;
+          content: "";
+          width: 8px;
+          min-width: 8px;
+
+          background-color: $isa-rouge-medium;
+          height: 100%;
+          margin-right: .5rem;
+          border-radius: 4px;
+
+
+        }
+
+      }
+
+
+      .consultation_text-box_description {
+
+        padding: 0 1rem;
+        hyphens: auto;
+      
+        text-align: left;
+        color: $isa-black;
+
+        h3 {
+          text-align: left;
+          font-size: $h6;
+          color: $isa-rouge-dark;
+          hyphens: none;
+        }
+
+        .consultation_text-box_img  {
+          
+          width: 100%;
+          height: 324px;
+          object-fit: cover;
+
+
+        }
+
+        //IMAGES
+        #bilan {
+          content: url("../../assets/imgs/mobile/1-bilan_mobile.jpg");
+        }
+
+        #examen {
+          content: url("../../assets/imgs/mobile/2-examen_mobile.jpg");
+        }
+
+        #diagnostic {
+          content: url("../../assets/imgs/mobile/3-diagnostic_mobile.jpg");
+        }
+
+        #plan {
+          content: url("../../assets/imgs/mobile/4-plan_mobile.jpg");
+        }
+
+        #traitement {
+          content: url("../../assets/imgs/mobile/5-traitement_mobile.jpg");
+        }
+
+        #diagnostique-final {
+          content: url("../../assets/imgs/mobile/6-diagnostique-final_mobile.jpg");
+        }
+
+        #suivi {
+          content: url("../../assets/imgs/mobile/7-suivi_mobile.jpg");
+        }
+
+        .consultation_text-box_text {
+          font-size: $paragraph-secondary;
+        }
+      }
+
+      ul.consultation_text-box_description {
+        font-size: $paragraph-secondary;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        color:  $isa-black;
+        line-height: 1.75rem;
+        margin: 1rem 0;
+        padding: 0 0 0 1.75rem;
+        text-align: left;
+
+
+        li.consultation_text-box_list{
+          display: flex;
+          list-style-type: none;
+          margin-bottom: 1rem;
+
+          &::before {
+            margin-right: .5rem;
+          };
+        }
+
+        #telephone::before {
+
+          width: 21px;
+          height: 24px;
+          content: url("/assets/icons/list/tel-icon.svg");
+        }
+        #email::before {
+
+          width: 24px;
+          height: 24px;
+          content: url("/assets/icons/list/email-icon.svg");
+        }
+        #insta::before {
+
+          width: 24px;
+          height: 24px;
+          content: url("/assets/icons/list/istagram-icon.svg");
+        }
+        #adresse::before {
+
+          width: 24px;
+          height: 24px;
+          content: url("/assets/icons/list/adress-icon.svg");
+        }
+      }
+
+      iframe.consultation_text-box_map {
+        padding: 0 1.75rem 0 2rem;
+        height: 420px;
+        width: 100%;
+      }
+
+    }
+  }
+
+
+
+}
+
+@media screen and (min-width : 768px) {
+
+  .consultation_section {
+
+    h1 {
+  
+      font-size:  $h1;
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+      line-height: 1.25em;
+  
+      width: 80%;
+      max-width: 768px;
+      margin: 4rem 5rem 2rem 5rem;
+    }
+  
+    .consultation_container {
+      width: 80%;
+      margin: 0 5rem;
+      max-width: 768px;
+
+        .consultation_text-box {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 2rem 0 0;
+  
+        .consultation_text-box_titre{
+  
+          display: flex;
+          hyphens: none;
+          margin: 0 ;
+  
+          text-transform: uppercase;
+          font-weight: $regular;
+          color: $isa-rouge-medium;
+  
+          &::before {
+            display: flex;
+            flex-wrap: wrap;
+            content: "";
+            width: 8px;
+            background-color: $isa-rouge-medium;
+            height: 100%;
+            margin-right: .5rem;
+            border-radius: 4px;
+  
+  
+          }
+  
+        }
+  
+  
+        .consultation_text-box_description {
+  
+          padding: 0 1rem;
+          hyphens: auto;
+        
+          text-align: left;
+          color: $isa-black;
+  
+          display: flex;
+          flex-wrap: wrap;
+          align-items: start;
+
+
+          h3 {
+            text-align: left;
+            font-size: $h6;
+            color: $isa-rouge-dark;
+            hyphens: none;
+            width: 100%;
+            margin: 3rem 0 .5rem 0;
+          }
+  
+          .consultation_text-box_img  {
+            
+            width: 50%;
+            height: 324px;
+            object-fit: cover;
+  
+  
+          }
+  
+          //IMAGES
+          #bilan {
+            content: url("../../assets/imgs/tablet/1-bilan_tablet.jpg");
+          }
+  
+          #examen {
+            content: url("../../assets/imgs/tablet/2-examen_tablet.jpg");
+          }
+  
+          #diagnostic {
+            content: url("../../assets/imgs/tablet/3-diagnostic_tablet.jpg");
+          }
+  
+          #plan {
+            content: url("../../assets/imgs/tablet/4-plan_tablet.jpg");
+          }
+  
+          #traitement {
+            content: url("../../assets/imgs/tablet/5-traitement_tablet.jpg");
+          }
+  
+          #diagnostique-final {
+            content: url("../../assets/imgs/tablet/6-diagnostique-final_tablet.jpg");
+          }
+  
+          #suivi {
+            content: url("../../assets/imgs/tablet/7-suivi_tablet.jpg");
+          }
+  
+          .consultation_text-box_text {
+            font-size: $paragraph;
+            width: 50%;
+            padding: 0 0 2rem 2rem;
+            margin: 0;
+          }
+        }
+  
+        ul.consultation_text-box_description {
+          font-size: $paragraph;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+
+          color:  $isa-black;
+          line-height: 1.75rem;
+          margin: 1rem 0;
+          padding: 0 0 0 1.75rem;
+          text-align: left;
+
+
+          li.consultation_text-box_list{
+            display: flex;
+            list-style-type: none;
+            margin-bottom: 1rem;
+
+            &::before {
+              margin-right: .5rem;
+            };
+          }
+  
+          #telephone::before {
+
+            width: 21px;
+            height: 24px;
+            content: url("/assets/icons/list/tel-icon.svg");
+          }
+          #email::before {
+
+            width: 24px;
+            height: 24px;
+            content: url("/assets/icons/list/email-icon.svg");
+          }
+          #insta::before {
+
+            width: 24px;
+            height: 24px;
+            content: url("/assets/icons/list/istagram-icon.svg");
+          }
+          #adresse::before {
+
+            width: 24px;
+            height: 24px;
+            content: url("/assets/icons/list/adress-icon.svg");
+          }
+        }
+        
+        iframe.consultation_text-box_map {
+          padding: 0 1.75rem 0 2rem;
+          height: 420px;
+          width: 100%;
+        }
+      }
+    }
+  
+  
+  
+  }
+
+}
+@media screen and (min-width : 1440px) {
+
+  .consultation_section {
+
+    h1 {
+  
+      font-size:  $h1;
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+      line-height: 1.25em;
+  
+      width: 50%;
+      max-width: 824px;
+      margin: 4rem 13rem 2rem 13rem;
+    }
+  
+    .consultation_container {
+      width: 50%;
+      margin: 0 13rem;
+      max-width: 824px;
+
+        .consultation_text-box {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 2rem 0 0;
+  
+        .consultation_text-box_titre{
+  
+          display: flex;
+          hyphens: none;
+          margin: 0 ;
+  
+          text-transform: uppercase;
+          font-weight: $regular;
+          color: $isa-rouge-medium;
+  
+          &::before {
+            display: flex;
+            flex-wrap: wrap;
+            content: "";
+            width: 8px;
+            background-color: $isa-rouge-medium;
+            height: 100%;
+            margin-right: .5rem;
+            border-radius: 4px;
+  
+  
+          }
+  
+        }
+  
+  
+        .consultation_text-box_description {
+          
+  
+          padding: 0 1rem;
+          hyphens: auto;
+        
+          text-align: left;
+          color: $isa-black;
+  
+          display: flex;
+          flex-wrap: wrap;
+          align-items: start;
+
+
+          h3 {
+            text-align: left;
+            font-size: $h6;
+            color: $isa-rouge-dark;
+            hyphens: none;
+            width: 100%;
+            margin: 3rem 0 .5rem 0;
+          }
+  
+          .consultation_text-box_img  {
+            
+            width: 65%;
+            height: 324px;
+            object-fit: cover;
+  
+  
+          }
+  
+          //IMAGES
+          #bilan {
+            content: url("../../assets/imgs/desktop/1-bilan_desktop.jpg");
+          }
+  
+          #examen {
+            content: url("../../assets/imgs/desktop/2-examen_desktop.jpg");
+          }
+  
+          #diagnostic {
+            content: url("../../assets/imgs/desktop/3-diagnostic_desktop.jpg");
+          }
+  
+          #plan {
+            content: url("../../assets/imgs/desktop/4-plan_desktop.jpg");
+          }
+  
+          #traitement {
+            content: url("../../assets/imgs/desktop/5-traitement_desktop.jpg");
+          }
+  
+          #diagnostique-final {
+            content: url("../../assets/imgs/desktop/6-diagnostique-final_desktop.jpg");
+          }
+  
+          #suivi {
+            content: url("../../assets/imgs/desktop/7-suivi_desktop.jpg");
+          }
+  
+          .consultation_text-box_text {
+            font-size: $paragraph;
+            width: 35%;
+            padding: 0 0 2rem 2rem;
+            margin: 0;
+          }
+        }
+  
+        ul.consultation_text-box_description {
+          font-size: $paragraph;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+
+          color:  $isa-black;
+          line-height: 1.75rem;
+          margin: 1rem 0;
+          padding: 0 0 0 1.75rem;
+          text-align: left;
+          li.consultation_text-box_list{
+            display: flex;
+            list-style-type: none;
+            margin-bottom: 1rem;
+
+            &::before {
+              margin-right: .5rem;
+            };
+          }
+  
+          #telephone::before {
+
+            width: 21px;
+            height: 24px;
+            content: url("/assets/icons/list/tel-icon.svg");
+          }
+          #email::before {
+
+            width: 24px;
+            height: 24px;
+            content: url("/assets/icons/list/email-icon.svg");
+          }
+          #insta::before {
+
+            width: 24px;
+            height: 24px;
+            content: url("/assets/icons/list/istagram-icon.svg");
+          }
+          #adresse::before {
+
+            width: 24px;
+            height: 24px;
+            content: url("/assets/icons/list/adress-icon.svg");
+          }
+
+        }
+        
+
+
+  
+
+        iframe.consultation_text-box_map {
+          padding: 0 1.75rem 0 2rem;
+          height: 420px;
+          width: 100%;
+        }
+      }
+
+    }
+  
+  
+  
+  }
+
+}

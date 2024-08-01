@@ -10,7 +10,7 @@
     letter-spacing: 0.15rem;
     line-height: 1.25em;
 
-    margin: 2rem;
+    margin: 2rem 1rem 1rem;
   }
 
   .mon-parcours_container {
@@ -25,7 +25,7 @@
   
         .mon-parcours_graphics_img {
 
-          content: url('../../assets/icons/SVG/pattern-green.svg');
+          content: url('../../assets/icons/pattern-green.svg');
   
         }
   
@@ -89,7 +89,7 @@
       .mon-parcours_graphics_img {
         margin: 1rem 0;
         width: 56px;
-        content: url('../../assets/icons/SVG/pattern-red.svg');
+        content: url('../../assets/icons/pattern-red.svg');
 
       }
 
@@ -111,6 +111,7 @@
 
       .mon-parcours_text-box_date {
         padding: 0 0 0 1rem;
+        font-size: $paragraph-small;
       }
 
       .mon-parcours_text-box_titre {
@@ -123,10 +124,11 @@
       }
 
       .mon-parcours_text-box_description{
+        font-size: $paragraph-secondary;
         hyphens: auto;
         padding: 0 2rem 0 0;
         text-align: justify;
-        color: #545454;
+        color: $isa-black;
       }
 
     }
@@ -168,7 +170,7 @@
     
           .mon-parcours_graphics_img {
   
-            content: url('../../assets/icons/SVG/pattern-green.svg');
+            content: url('../../assets/icons/pattern-green.svg');
     
           }
     
@@ -232,7 +234,7 @@
         .mon-parcours_graphics_img {
           margin: 1rem 0;
           width: 56px;
-          content: url('../../assets/icons/SVG/pattern-red.svg');
+          content: url('../../assets/icons/pattern-red.svg');
   
         }
   
@@ -254,6 +256,7 @@
   
         .mon-parcours_text-box_date {
           padding: 0 0 0 1rem;
+          font-size: $paragraph-secondary;
         }
   
         .mon-parcours_text-box_titre {
@@ -266,10 +269,11 @@
         }
   
         .mon-parcours_text-box_description{
+          font-size: $paragraph;
           hyphens: auto;
           padding: 0 2rem 0 0;
           text-align: justify;
-          color: #545454;
+          color: $isa-black;
         }
   
       }
@@ -315,7 +319,7 @@
     
           .mon-parcours_graphics_img {
   
-            content: url('../../assets/icons/SVG/pattern-green.svg');
+            content: url('../../assets/icons/pattern-green.svg');
     
           }
     
@@ -359,7 +363,7 @@
           }
     
           .mon-parcours_text-box_description{
-  
+            
           }
     
         }
@@ -379,7 +383,7 @@
         .mon-parcours_graphics_img {
           margin: 1rem 0;
           width: 56px;
-          content: url('../../assets/icons/SVG/pattern-red.svg');
+          content: url('../../assets/icons/pattern-red.svg');
   
         }
   
@@ -401,6 +405,7 @@
   
         .mon-parcours_text-box_date {
           padding: 0 0 0 1rem;
+          font-size: $paragraph-secondary;
         }
   
         .mon-parcours_text-box_titre {
@@ -413,10 +418,11 @@
         }
   
         .mon-parcours_text-box_description{
+          font-size: $paragraph;
           hyphens: auto;
           padding: 0 2rem 0 0;
           text-align: justify;
-          color: #545454;
+          color: $isa-black;
         }
   
       }
