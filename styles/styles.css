@@ -2314,27 +2314,27 @@ footer p a {
 .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #telephone::before {
   width: 21px;
   height: 24px;
-  content: url("/assets/icons/list/tel-icon.svg");
+  content: url("../assets/icons/list/tel-icon.svg");
 }
 .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #email::before {
   width: 24px;
   height: 24px;
-  content: url("/assets/icons/list/email-icon.svg");
+  content: url("../assets/icons/list/email-icon.svg");
 }
 .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #insta::before {
   width: 24px;
   height: 24px;
-  content: url("/assets/icons/list/istagram-icon.svg");
+  content: url("../assets/icons/list/istagram-icon.svg");
 }
 .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #adresse::before {
   width: 26px;
   height: 24px;
-  content: url("/assets/icons/list/adress-icon.svg");
+  content: url("../assets/icons/list/adress-icon.svg");
 }
 .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #linkedin::before {
   width: 24px;
   height: 24px;
-  content: url("/assets/icons/list/linkedin-icon.svg");
+  content: url("../assets/icons/list/linkedin-icon.svg");
 }
 .consultation_section .consultation_container .consultation_text-box iframe.consultation_text-box_map {
   padding: 0 1.75rem 0 2rem;
@@ -2457,27 +2457,27 @@ footer p a {
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #telephone::before {
     width: 21px;
     height: 24px;
-    content: url("/assets/icons/list/tel-icon.svg");
+    content: url("../assets/icons/list/tel-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #email::before {
     width: 24px;
     height: 24px;
-    content: url("/assets/icons/list/email-icon.svg");
+    content: url("../assets/icons/list/email-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #insta::before {
     width: 24px;
     height: 24px;
-    content: url("/assets/icons/list/istagram-icon.svg");
+    content: url("../assets/icons/list/istagram-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #adresse::before {
     width: 26px;
     height: 24px;
-    content: url("/assets/icons/list/adress-icon.svg");
+    content: url("../assets/icons/list/adress-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #linkedin::before {
     width: 24px;
     height: 24px;
-    content: url("/assets/icons/list/linkedin-icon.svg");
+    content: url("../assets/icons/list/linkedin-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box iframe.consultation_text-box_map {
     padding: 0 1.75rem 0 2rem;
@@ -2600,27 +2600,27 @@ footer p a {
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #telephone::before {
     width: 21px;
     height: 24px;
-    content: url("/assets/icons/list/tel-icon.svg");
+    content: url("../assets/icons/list/tel-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #email::before {
     width: 24px;
     height: 24px;
-    content: url("/assets/icons/list/email-icon.svg");
+    content: url("../assets/icons/list/email-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #insta::before {
     width: 24px;
     height: 24px;
-    content: url("/assets/icons/list/istagram-icon.svg");
+    content: url("../assets/icons/list/istagram-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #adresse::before {
     width: 26px;
     height: 24px;
-    content: url("/assets/icons/list/adress-icon.svg");
+    content: url("../assets/icons/list/adress-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #linkedin::before {
     width: 24px;
     height: 24px;
-    content: url("/assets/icons/list/linkedin-icon.svg");
+    content: url("../assets/icons/list/linkedin-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box iframe.consultation_text-box_map {
     padding: 0 1.75rem 0 2rem;
