@@ -1299,12 +1299,12 @@ footer p a {
 }
 .parcours_section .parcours_container {
   width: 100%;
-  margin: 42px auto;
-  padding: 2rem;
+  margin: 6rem auto;
   display: flex;
   max-width: 1600px;
   border-radius: 24px;
   flex-wrap: wrap;
+  padding: 0 1rem;
 }
 .parcours_section .parcours_container img {
   border-radius: 24px;
@@ -1312,6 +1312,7 @@ footer p a {
   -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
+  max-height: 352px;
 }
 .parcours_section .parcours_container .parcours_description {
   display: flex;
@@ -1343,7 +1344,7 @@ footer p a {
   flex-wrap: wrap;
 }
 .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_secondary-button, .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button {
-  margin: 1rem 0 0 0;
+  margin: 1.5rem 0 0 0;
   padding: 16px 12px;
   border-radius: 8px;
   text-transform: uppercase;
@@ -1383,8 +1384,8 @@ footer p a {
   }
   .parcours_section .parcours_container {
     width: 80%;
-    margin: 42px auto;
-    padding: 2rem;
+    margin: 8rem auto;
+    padding: 0;
     display: flex;
     max-width: 1600px;
     border-radius: 24px;
@@ -1395,6 +1396,7 @@ footer p a {
     -o-object-fit: cover;
        object-fit: cover;
     width: 40%;
+    max-height: 380px;
   }
   .parcours_section .parcours_container .parcours_description {
     display: flex;
@@ -1402,12 +1404,12 @@ footer p a {
     flex-wrap: wrap;
     width: 60%;
     align-content: start;
-    padding: 0;
+    padding: 0 2rem;
     margin: 0;
   }
   .parcours_section .parcours_container .parcours_description .parcours_title {
     font-size: 32px;
-    margin: 0 0 1rem 1rem;
+    margin: 0;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 0.15rem;
@@ -1415,7 +1417,7 @@ footer p a {
   }
   .parcours_section .parcours_container .parcours_description .parcours_texte {
     font-size: 20px;
-    margin: 0 0 1rem 1rem;
+    margin: 1rem 0;
     width: 100%;
   }
   .parcours_section .parcours_container .parcours_description .parcours_buttons_container {
@@ -1426,7 +1428,7 @@ footer p a {
     flex-wrap: wrap;
   }
   .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_secondary-button, .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button {
-    margin: 1rem 1rem 0 1rem;
+    margin: 1rem 0 0 0;
     padding: 16px 12px;
     border-radius: 8px;
     text-transform: uppercase;
@@ -1466,8 +1468,8 @@ footer p a {
   }
   .parcours_section .parcours_container {
     width: 80%;
-    margin: 42px auto;
-    padding: 2rem;
+    margin: 10rem auto;
+    padding: 0;
     display: flex;
     max-width: 1600px;
     border-radius: 24px;
@@ -1478,6 +1480,7 @@ footer p a {
     -o-object-fit: cover;
        object-fit: cover;
     width: 40%;
+    max-height: 524px;
   }
   .parcours_section .parcours_container .parcours_description {
     display: flex;
@@ -1485,7 +1488,7 @@ footer p a {
     flex-wrap: wrap;
     width: 55%;
     align-content: start;
-    padding: 2rem 2rem;
+    padding: 0 2rem;
     margin: 0rem 0 0 2rem;
   }
   .parcours_section .parcours_container .parcours_description .parcours_title {
@@ -1500,6 +1503,8 @@ footer p a {
     font-size: 20px;
     margin: 0 0 2rem 0;
     width: 100%;
+    -webkit-hyphens: auto;
+            hyphens: auto;
   }
   .parcours_section .parcours_container .parcours_description .parcours_buttons_container {
     display: flex;

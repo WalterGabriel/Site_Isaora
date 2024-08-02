@@ -9,12 +9,12 @@
 
   .parcours_container {
     width: 100%;
-    margin: 42px auto;
-    padding: 2rem;
+    margin: 6rem auto;
     display: flex;
     max-width: 1600px;
     border-radius: 24px;
     flex-wrap: wrap;
+    padding: 0 1rem;
 
     img {
       border-radius: 24px;
@@ -22,6 +22,7 @@
       -o-object-fit: cover;
       object-fit: cover;
       width: 100%;
+      max-height: 352px;
     }
 
 
@@ -63,7 +64,7 @@
 
 
         .parcours_secondary-button, .parcours_primary-button{
-          margin: 1rem 0 0 0;
+          margin: 1.5rem 0 0 0;
           padding: 16px 12px;
           border-radius: 8px;
           text-transform: uppercase;
@@ -126,8 +127,8 @@
 
     .parcours_container {
       width: 80%;
-      margin: 42px auto;
-      padding: 2rem;
+      margin: 8rem auto;
+      padding: 0;
       display: flex;
       max-width: 1600px;
       //box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.125);
@@ -138,6 +139,8 @@
         border-style: none;
         object-fit: cover;
         width: 40%;
+        max-height: 380px;
+        
       }
 
 
@@ -147,13 +150,13 @@
         flex-wrap: wrap;
         width: 60%;
         align-content: start;
-        padding: 0;
+        padding: 0 2rem;
         margin: 0;
 
 
         .parcours_title{
           font-size: $h3;
-          margin: 0 0 1rem 1rem;
+          margin: 0;
           text-transform: uppercase;
           font-weight: $regular;
           letter-spacing: 0.15rem;
@@ -163,7 +166,7 @@
 
         .parcours_texte {
           font-size: $paragraph-lead;
-          margin: 0 0 1rem 1rem;
+          margin: 1rem 0;
           width: 100%;
 
         }
@@ -178,7 +181,7 @@
 
 
           .parcours_secondary-button, .parcours_primary-button{
-            margin: 1rem 1rem 0 1rem;
+            margin: 1rem 0 0 0;
             padding: 16px 12px;
             border-radius: 8px;
             text-transform: uppercase;
@@ -249,8 +252,8 @@
 
     .parcours_container {
       width: 80%;
-      margin: 42px auto;
-      padding: 2rem;
+      margin: 10rem auto;
+      padding: 0;
       display: flex;
       max-width: 1600px;
       //box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.125);
@@ -261,6 +264,8 @@
         border-style: none;
         object-fit: cover;
         width: 40%;
+        max-height: 524px;
+        
       }
 
 
@@ -270,7 +275,7 @@
         flex-wrap: wrap;
         width: 55%;
         align-content: start;
-        padding: 2rem 2rem;
+        padding: 0 2rem;
         margin: 0rem 0 0 2rem;
 
 
@@ -288,7 +293,7 @@
           font-size: $paragraph-lead;
           margin: 0 0 2rem 0;
           width: 100%;
-
+          hyphens: auto;
         }
 
         .parcours_buttons_container {
