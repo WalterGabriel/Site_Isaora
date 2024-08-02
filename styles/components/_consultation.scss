@@ -39,6 +39,7 @@
           content: "";
           width: 8px;
           min-width: 8px;
+          
 
           background-color: $isa-rouge-medium;
           height: 100%;
@@ -129,6 +130,7 @@
 
           &::before {
             margin-right: .5rem;
+            align-self: center;
           };
         }
 
@@ -152,9 +154,16 @@
         }
         #adresse::before {
 
-          width: 24px;
+          width: 26px;
           height: 24px;
           content: url("/assets/icons/list/adress-icon.svg");
+        }
+
+        #linkedin::before {
+
+          width: 24px;
+          height: 24px;
+          content: url("/assets/icons/list/linkedin-icon.svg");
         }
       }
 
@@ -312,6 +321,7 @@
 
             &::before {
               margin-right: .5rem;
+              align-self: center;
             };
           }
   
@@ -335,9 +345,15 @@
           }
           #adresse::before {
 
-            width: 24px;
+            width: 26px;
             height: 24px;
             content: url("/assets/icons/list/adress-icon.svg");
+          }
+          #linkedin::before {
+
+            width: 24px;
+            height: 24px;
+            content: url("/assets/icons/list/linkedin-icon.svg");
           }
         }
         
@@ -491,9 +507,13 @@
             display: flex;
             list-style-type: none;
             margin-bottom: 1rem;
+            
+            
 
             &::before {
               margin-right: .5rem;
+              align-self: center;
+              
             };
           }
   
@@ -517,9 +537,16 @@
           }
           #adresse::before {
 
-            width: 24px;
+            width: 26px;
             height: 24px;
             content: url("/assets/icons/list/adress-icon.svg");
+          }
+
+          #linkedin::before {
+
+            width: 24px;
+            height: 24px;
+            content: url("/assets/icons/list/linkedin-icon.svg");
           }
 
         }

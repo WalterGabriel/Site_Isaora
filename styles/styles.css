@@ -1335,6 +1335,7 @@ footer p a {
   font-size: 16px;
   margin: 1rem 0;
   width: 100%;
+  color: #545454;
 }
 .parcours_section .parcours_container .parcours_description .parcours_buttons_container {
   display: flex;
@@ -1593,6 +1594,7 @@ footer p a {
   font-size: 16px;
   padding: 0;
   width: 100%;
+  color: #545454;
 }
 .contact_section .contact_container .contact_message-box .contact_texte .contact_reseaux {
   color: #995c54 !important;
@@ -2307,6 +2309,7 @@ footer p a {
 }
 .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description li.consultation_text-box_list::before {
   margin-right: 0.5rem;
+  align-self: center;
 }
 .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #telephone::before {
   width: 21px;
@@ -2324,9 +2327,14 @@ footer p a {
   content: url("/assets/icons/list/istagram-icon.svg");
 }
 .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #adresse::before {
-  width: 24px;
+  width: 26px;
   height: 24px;
   content: url("/assets/icons/list/adress-icon.svg");
+}
+.consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #linkedin::before {
+  width: 24px;
+  height: 24px;
+  content: url("/assets/icons/list/linkedin-icon.svg");
 }
 .consultation_section .consultation_container .consultation_text-box iframe.consultation_text-box_map {
   padding: 0 1.75rem 0 2rem;
@@ -2444,6 +2452,7 @@ footer p a {
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description li.consultation_text-box_list::before {
     margin-right: 0.5rem;
+    align-self: center;
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #telephone::before {
     width: 21px;
@@ -2461,9 +2470,14 @@ footer p a {
     content: url("/assets/icons/list/istagram-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #adresse::before {
-    width: 24px;
+    width: 26px;
     height: 24px;
     content: url("/assets/icons/list/adress-icon.svg");
+  }
+  .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #linkedin::before {
+    width: 24px;
+    height: 24px;
+    content: url("/assets/icons/list/linkedin-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box iframe.consultation_text-box_map {
     padding: 0 1.75rem 0 2rem;
@@ -2581,6 +2595,7 @@ footer p a {
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description li.consultation_text-box_list::before {
     margin-right: 0.5rem;
+    align-self: center;
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #telephone::before {
     width: 21px;
@@ -2598,9 +2613,14 @@ footer p a {
     content: url("/assets/icons/list/istagram-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #adresse::before {
-    width: 24px;
+    width: 26px;
     height: 24px;
     content: url("/assets/icons/list/adress-icon.svg");
+  }
+  .consultation_section .consultation_container .consultation_text-box ul.consultation_text-box_description #linkedin::before {
+    width: 24px;
+    height: 24px;
+    content: url("/assets/icons/list/linkedin-icon.svg");
   }
   .consultation_section .consultation_container .consultation_text-box iframe.consultation_text-box_map {
     padding: 0 1.75rem 0 2rem;
