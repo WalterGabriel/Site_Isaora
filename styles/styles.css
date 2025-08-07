@@ -325,11 +325,15 @@ header .header_nav--active ul li a:hover {
   flex-direction: column;
 }
 .hero_container .hero_description .hero_title {
-  font-size: 24px;
+  font-size: 36px;
   margin: 0 0 1rem 0;
   text-transform: uppercase;
   letter-spacing: 0;
   line-height: 1.25em;
+}
+.hero_container .hero_description .hero_subtitle {
+  font-size: 20px;
+  margin: 0 0 0 0;
 }
 .hero_container .hero_description .hero_paragraph {
   font-size: 16px;
@@ -383,11 +387,17 @@ header .header_nav--active ul li a:hover {
     justify-content: space-between;
   }
   .hero_container .hero_description .hero_title {
-    font-size: 36px;
+    font-size: 52px;
     margin: 0 0 1rem 0;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     line-height: 1.25em;
+    width: 100%;
+  }
+  .hero_container .hero_description .hero_subtitle {
+    font-size: 32px;
+    margin: 0 0 0 0;
+    width: 100%;
   }
   .hero_container .hero_description .hero_paragraph {
     font-size: 20px;
@@ -452,10 +462,15 @@ header .header_nav--active ul li a:hover {
   }
   .hero_container .hero_description .hero_title {
     font-size: 52px;
-    margin: 0 0 3rem 0;
+    margin: 0 0 1rem 0;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     line-height: 1.25em;
+  }
+  .hero_container .hero_description .hero_subtitle {
+    font-size: 32px;
+    margin: 0 0 0 0;
+    width: 100%;
   }
   .hero_container .hero_description .hero_paragraph {
     font-size: 20px;
@@ -1569,7 +1584,7 @@ footer p a {
 }
 .contact_section .contact_container .contact_message-box {
   width: 100%;
-  margin: 0 0 4rem 0;
+  margin: 4rem 0 4rem 0;
 }
 .contact_section .contact_container .contact_message-box .contact_orange-stroke {
   height: 8px;

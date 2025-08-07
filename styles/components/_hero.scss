@@ -20,12 +20,18 @@
     flex-direction: column;
 
     .hero_title {
-      font-size: $h5;
+      font-size: $h2;
       margin: 0 0 1rem 0;
       text-transform: uppercase;
 
       letter-spacing: 0;
       line-height: 1.25em;
+    }
+
+    .hero_subtitle {
+      font-size: $paragraph-lead;
+      margin: 0 0 0 0;
+    
     }
 
     .hero_paragraph{
@@ -92,11 +98,18 @@
       justify-content: space-between;
   
       .hero_title {
-        font-size: $h2;
+        font-size: $h1;
         margin: 0 0 1rem 0;
         text-transform: uppercase;
         letter-spacing: 0.15rem;
         line-height: 1.25em;
+        width: 100%;
+      }
+
+      .hero_subtitle {
+      font-size: $h3;
+      margin: 0 0 0 0;
+        width: 100%;
       }
   
       .hero_paragraph{
@@ -181,10 +194,16 @@
   
       .hero_title {
         font-size: $h1;
-        margin: 0 0 3rem 0;
+        margin: 0 0 1rem 0;
         text-transform: uppercase;
         letter-spacing: 0.15rem;
         line-height: 1.25em;
+      }
+
+      .hero_subtitle {
+      font-size: $h3;
+      margin: 0 0 0 0;
+      width: 100%;
       }
   
       .hero_paragraph{
