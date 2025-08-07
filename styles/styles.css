@@ -337,7 +337,7 @@ header .header_nav--active ul li a:hover {
 }
 .hero_container .hero_description .hero_paragraph {
   font-size: 16px;
-  color: #545454;
+  color: #4d4d4d;
   margin: 0 0 2rem 0;
   -webkit-hyphens: auto;
           hyphens: auto;
@@ -778,6 +778,10 @@ footer p a {
   background: radial-gradient(closest-corner, transparent, transparent, #fff), no-repeat center/cover url("../assets/imgs/cards/adult_card_cover.jpg");
   background-position: center 56%;
 }
+.motifs_container .motifs_card-box #enceinte-bg {
+  background: radial-gradient(closest-corner, transparent, transparent, #fff), no-repeat center/cover url("../assets/imgs/cards/pregnant_card_cover.jpg");
+  background-position: center 11%;
+}
 .motifs_container .motifs_card-box .motifs_card {
   margin: 0 0 3rem 0;
   display: grid;
@@ -798,9 +802,9 @@ footer p a {
   border-radius: 24px 24px 0 0;
 }
 .motifs_container .motifs_card-box .motifs_card .motifs_card_title {
-  color: rgba(0, 0, 0, 0.2392156863);
+  color: rgba(0, 0, 0, 0.3843137255);
   font-weight: 400;
-  font-size: 32px;
+  font-size: 24px;
   text-transform: uppercase;
   font-weight: 400;
   margin: 1rem 0 1rem 0;
@@ -819,7 +823,7 @@ footer p a {
   transition: opacity ease-in-out 300ms;
   border-radius: 0 0 24px 24px;
   background-color: transparent;
-  color: #545454;
+  color: #4d4d4d;
 }
 .motifs_container .motifs_card-box .motifs_card .motifs_description:hover {
   opacity: 100%;
@@ -828,8 +832,8 @@ footer p a {
   text-align: left;
   list-style: none;
   margin: 0 0 1rem 0;
-  padding: 0 2rem;
-  height: auto;
+  padding: 0 1rem;
+  height: 305px;
 }
 .motifs_container .motifs_card-box .motifs_card .motifs_description .motifs_list .motifs_item {
   font-size: 16px;
@@ -843,7 +847,7 @@ footer p a {
   padding: 16px 16px;
   border-radius: 0 0 24px 24px;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 500;
   color: white;
@@ -892,6 +896,10 @@ footer p a {
   .motifs_container .motifs_card-box #adulte-bg {
     background: radial-gradient(closest-corner, transparent, transparent, #fff), no-repeat center/cover url("../assets/imgs/cards/adult_card_cover.jpg");
   }
+  .motifs_container .motifs_card-box #enceinte-bg {
+    background: radial-gradient(closest-corner, transparent, transparent, #fff), no-repeat center/cover url("../assets/imgs/cards/pregnant_card_cover.jpg");
+    background-position: center 11%;
+  }
   .motifs_container .motifs_card-box .motifs_card {
     display: grid;
     margin: 0 0 3rem 0;
@@ -915,16 +923,14 @@ footer p a {
     align-content: center;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 32px;
-    margin: 1rem 0 1rem 0;
-    color: rgba(0, 0, 0, 0.2392156863);
+    font-size: 24px;
+    margin: 2rem 0 1rem 0;
+    color: rgba(0, 0, 0, 0.3843137255);
     line-height: 1em;
   }
   .motifs_container .motifs_card-box .motifs_card .motifs_description {
-    display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
-    grid-template-columns: 1fr;
-    height: 342px;
+    display: flex;
+    height: 460px;
     width: 100%;
     padding: 0;
     position: relative;
@@ -932,7 +938,7 @@ footer p a {
     opacity: 100%;
     transition: opacity ease-in-out 300ms;
     border-radius: 0 24px 24px 0;
-    color: #545454;
+    color: #4d4d4d;
     background-color: transparent;
   }
   .motifs_container .motifs_card-box .motifs_card .motifs_description:hover {
@@ -942,8 +948,8 @@ footer p a {
     text-align: left;
     list-style: none;
     margin: 0;
-    padding: 0 1rem;
-    height: auto;
+    padding: 1rem;
+    height: 100%;
   }
   .motifs_container .motifs_card-box .motifs_card .motifs_description .motifs_list .motifs_item {
     font-size: 16px;
@@ -952,6 +958,7 @@ footer p a {
   .motifs_link-button {
     display: block;
     cursor: pointer;
+    width: 100%;
     margin: 0;
     padding: 12px 16px;
     border-radius: 0 0 24px 0;
@@ -1004,11 +1011,15 @@ footer p a {
   .motifs_container .motifs_card-box #adulte-bg {
     background: radial-gradient(closest-corner, transparent, transparent, #fff), no-repeat center/cover url("../assets/imgs/cards/adult_card_cover.jpg");
   }
+  .motifs_container .motifs_card-box #enceinte-bg {
+    background: radial-gradient(closest-corner, transparent, transparent, #fff), no-repeat center/cover url("../assets/imgs/cards/pregnant_card_cover.jpg");
+    background-position: 37% 11%;
+  }
   .motifs_container .motifs_card-box .motifs_card {
     margin: 0;
     display: block;
     width: 20vw;
-    min-width: 300px;
+    min-width: 312px;
     max-width: 400px;
     height: 480px;
   }
@@ -1026,23 +1037,21 @@ footer p a {
     font-weight: 400;
     font-size: 24px;
     margin: 0 0 1rem 0;
-    color: rgba(0, 0, 0, 0.2392156863);
+    color: rgba(0, 0, 0, 0.3843137255);
   }
   .motifs_container .motifs_card-box .motifs_card .motifs_description {
-    display: grid;
-    padding: 1rem;
-    grid-template-rows: 1fr 2fr 1fr;
-    grid-template-columns: 1fr;
+    display: flex;
+    padding: 1.5rem 1rem 1rem 1rem;
     top: -480px;
     height: 480px;
     width: 20vw;
-    min-width: 300px;
+    min-width: 312px;
     max-width: 400px;
     left: auto;
     z-index: 1;
     border-radius: 24px;
     text-align: center;
-    color: #545454;
+    color: #4d4d4d;
     position: relative;
     flex-direction: column;
     justify-content: space-between;
@@ -1054,15 +1063,18 @@ footer p a {
     opacity: 100%;
   }
   .motifs_container .motifs_card-box .motifs_card .motifs_description .motifs_list {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     text-align: left;
     list-style: none;
     margin: 0;
     padding: 0;
-    height: 320px;
   }
   .motifs_container .motifs_card-box .motifs_card .motifs_description .motifs_list .motifs_item {
     font-size: 16px;
-    padding: 0.5rem;
+    padding: 0.4rem;
+    line-height: 1em;
   }
   .motifs_link-button {
     display: block;
@@ -1078,7 +1090,7 @@ footer p a {
     color: white;
     background-color: #995c54;
     transition: background-color ease-in-out 200ms;
-    align-self: end;
+    align-self: center;
   }
   .motifs_link-button:hover {
     background-color: #824941;
@@ -1350,7 +1362,7 @@ footer p a {
   font-size: 16px;
   margin: 1rem 0;
   width: 100%;
-  color: #545454;
+  color: #4d4d4d;
 }
 .parcours_section .parcours_container .parcours_description .parcours_buttons_container {
   display: flex;
@@ -1609,7 +1621,7 @@ footer p a {
   font-size: 16px;
   padding: 0;
   width: 100%;
-  color: #545454;
+  color: #4d4d4d;
 }
 .contact_section .contact_container .contact_message-box .contact_texte .contact_reseaux {
   color: #995c54 !important;
@@ -1833,7 +1845,7 @@ footer p a {
           hyphens: auto;
   padding: 0 2rem 0 0;
   text-align: justify;
-  color: #545454;
+  color: #4d4d4d;
 }
 
 @media screen and (min-width: 768px) {
@@ -1906,7 +1918,7 @@ footer p a {
             hyphens: auto;
     padding: 0 2rem 0 0;
     text-align: justify;
-    color: #545454;
+    color: #4d4d4d;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -1979,7 +1991,7 @@ footer p a {
             hyphens: auto;
     padding: 0 2rem 0 0;
     text-align: justify;
-    color: #545454;
+    color: #4d4d4d;
   }
 }
 :root {
@@ -2054,7 +2066,7 @@ footer p a {
   -webkit-hyphens: auto;
           hyphens: auto;
   text-align: justify;
-  color: #545454;
+  color: #4d4d4d;
 }
 .osteopathie_section .osteopathie_container .osteopathie_text-box ul {
   color: #545454;
@@ -2132,7 +2144,7 @@ footer p a {
     -webkit-hyphens: auto;
             hyphens: auto;
     text-align: justify;
-    color: #545454;
+    color: #4d4d4d;
   }
   .osteopathie_section .osteopathie_container .osteopathie_text-box ul {
     color: #545454;
@@ -2210,7 +2222,7 @@ footer p a {
     -webkit-hyphens: auto;
             hyphens: auto;
     text-align: justify;
-    color: #545454;
+    color: #4d4d4d;
   }
   .osteopathie_section .osteopathie_container .osteopathie_text-box ul {
     color: #545454;
@@ -2267,7 +2279,7 @@ footer p a {
   -webkit-hyphens: auto;
           hyphens: auto;
   text-align: left;
-  color: #545454;
+  color: #4d4d4d;
 }
 .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description h3 {
   text-align: left;
@@ -2311,7 +2323,7 @@ footer p a {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  color: #545454;
+  color: #4d4d4d;
   line-height: 1.75rem;
   margin: 1rem 0;
   padding: 0 0 0 1.75rem;
@@ -2402,7 +2414,7 @@ footer p a {
     -webkit-hyphens: auto;
             hyphens: auto;
     text-align: left;
-    color: #545454;
+    color: #4d4d4d;
     display: flex;
     flex-wrap: wrap;
     align-items: start;
@@ -2454,7 +2466,7 @@ footer p a {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    color: #545454;
+    color: #4d4d4d;
     line-height: 1.75rem;
     margin: 1rem 0;
     padding: 0 0 0 1.75rem;
@@ -2545,7 +2557,7 @@ footer p a {
     -webkit-hyphens: auto;
             hyphens: auto;
     text-align: left;
-    color: #545454;
+    color: #4d4d4d;
     display: flex;
     flex-wrap: wrap;
     align-items: start;
@@ -2597,7 +2609,7 @@ footer p a {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    color: #545454;
+    color: #4d4d4d;
     line-height: 1.75rem;
     margin: 1rem 0;
     padding: 0 0 0 1.75rem;

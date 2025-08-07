@@ -40,6 +40,11 @@
       background-position: center 56%;
     }
 
+    #enceinte-bg {
+      background: radial-gradient(closest-corner, transparent,transparent, #fff), no-repeat center/cover url("../assets/imgs/cards/pregnant_card_cover.jpg");
+      background-position: center 11%;
+    }
+
 
 
 
@@ -69,8 +74,8 @@
       .motifs_card_title {
         color: $isa-gris;
         font-weight: $regular;
-        font-size: $h3;
-          
+        font-size: $h5;
+        
         text-transform: uppercase;
         font-weight: 400;
         margin: 1rem 0 1rem 0;
@@ -102,8 +107,8 @@
           text-align: left;
           list-style: none;
           margin: 0 0 1rem 0;
-          padding: 0 2rem;
-          height: auto;
+          padding: 0 1rem;
+          height: 305px;
 
           .motifs_item {
             font-size: $paragraph-secondary;
@@ -125,7 +130,7 @@
   padding: 16px 16px;
   border-radius: 0 0 24px 24px;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 500;
   color: white;
@@ -192,6 +197,11 @@
         background: radial-gradient(closest-corner, transparent,transparent, #fff), no-repeat center/cover url("../assets/imgs/cards/adult_card_cover.jpg");
       }
 
+      #enceinte-bg {
+        background: radial-gradient(closest-corner, transparent,transparent, #fff), no-repeat center/cover url("../assets/imgs/cards/pregnant_card_cover.jpg");
+        background-position: center 11%;
+      }
+
 
 
 
@@ -225,18 +235,17 @@
 
           text-transform: uppercase;
           font-weight: $regular;
-          font-size: $h3;
-          margin: 1rem 0 1rem 0;
+          font-size: $h5;
+          margin: 2rem 0 1rem 0;
           color: $isa-gris;
           line-height: 1em;
         }
 
         .motifs_description {
-          display: grid;
-          grid-template-rows: 1fr 2fr 1fr;
-          grid-template-columns: 1fr;
+          display: flex;
 
-          height: 342px;
+
+          height: 460px;
           width: 100%;
           padding: 0;
           position: relative;
@@ -259,8 +268,8 @@
             text-align: left;
             list-style: none;
             margin: 0;
-            padding: 0 1rem;
-            height: auto;
+            padding: 1rem;
+            height: 100%;
             .motifs_item {
               font-size: $paragraph-secondary;
               padding: .25rem 0;
@@ -277,6 +286,7 @@
   .motifs_link-button{
     display: block;
     cursor: pointer;
+    width: 100%;
     margin: 0;
     padding: 12px 16px;
     border-radius: 0 0 24px 0;
@@ -347,6 +357,11 @@
 
       #adulte-bg {
         background: radial-gradient(closest-corner, transparent,transparent, #fff), no-repeat center/cover url("../assets/imgs/cards/adult_card_cover.jpg");
+        
+      }
+      #enceinte-bg {
+        background: radial-gradient(closest-corner, transparent,transparent, #fff), no-repeat center/cover url("../assets/imgs/cards/pregnant_card_cover.jpg");
+        background-position: 37% 11%;
       }
 
 
@@ -358,7 +373,7 @@
         display: block;
 
         width: 20vw;
-        min-width: 300px;
+        min-width: 312px;
         max-width: 400px;
         height: 480px;
         
@@ -375,7 +390,6 @@
         }
         
         .motifs_card_title {
-            
           text-transform: uppercase;
           font-weight: $regular;
           font-size: $h5;
@@ -384,17 +398,14 @@
         }
 
         .motifs_description {
-          display: grid;
-          padding: 1rem;
-
-          grid-template-rows: 1fr 2fr 1fr;
-          grid-template-columns: 1fr;
+          display: flex;
+          padding: 1.5rem 1rem 1rem 1rem;
 
           
           top: -480px;
           height: 480px;
           width: 20vw;
-          min-width: 300px;
+          min-width: 312px;
           max-width: 400px;
           left: auto;
           z-index: 1;
@@ -418,15 +429,19 @@
       
 
           .motifs_list {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
             
             text-align: left;
             list-style: none;
             margin: 0;
             padding: 0;
-            height: 320px;
+            
             .motifs_item {
               font-size: $paragraph-secondary;
-              padding: .5rem;
+              padding: .4rem;
+              line-height: 1em;
             }
             
           }
@@ -452,7 +467,7 @@
     background-color: $isa-rouge-medium;
     transition: background-color ease-in-out 200ms;
 
-    align-self: end;
+    align-self: center;
     
     &:hover {
       
