@@ -528,7 +528,7 @@ header .header_nav--active ul li a:hover {
   position: absolute;
   width: 100%;
   height: 60%;
-  background-image: url("../assets/Mobile/imgs/Douleurs_Menstruelles.png");
+  background-image: url("../assets/imgs/mobile/douleurs_menstruelles.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -538,7 +538,7 @@ header .header_nav--active ul li a:hover {
   position: relative;
   color: #fff;
   padding: 32px;
-  background-image: url("../assets/Mobile/imgs/Douleurs_Menstruelles.png");
+  background-image: url("../assets/imgs/mobile/douleurs_menstruelles.jpg");
   background-position: center;
   background-size: cover;
   background-color: rgba(50, 31, 28, 0.3215686275);
@@ -594,7 +594,7 @@ header .header_nav--active ul li a:hover {
     position: absolute;
     width: 100%;
     height: 60%;
-    background-image: url("../assets/Mobile/imgs/Douleurs_Menstruelles.png");
+    background-image: url("../assets/imgs/tablet/douleurs_menstruelles.jpg");
     background-position: center;
     background-size: cover;
   }
@@ -605,7 +605,7 @@ header .header_nav--active ul li a:hover {
     position: relative;
     color: #fff;
     padding: 116px;
-    background: url("../assets/Mobile/imgs/Douleurs_Menstruelles.png") no-repeat;
+    background: url("../assets/imgs/tablet/douleurs_menstruelles.jpg") no-repeat;
     background-position: center;
     background-size: cover;
   }
@@ -657,7 +657,7 @@ header .header_nav--active ul li a:hover {
     position: relative;
     width: 50%;
     height: calc(100vh - 96px);
-    background-image: url("../assets/Desktop/imgs/Douleurs_Menstruelles.png");
+    background-image: url("../assets/imgs/desktop/douleurs_menstruelles.jpg");
     background-position: center;
     background-size: cover;
   }
@@ -1154,7 +1154,7 @@ footer p a {
   width: 50%;
   padding: 0 6px;
   margin: 0.5rem 0;
-  font-size: 12px;
+  font-size: 16px;
 }
 .cabinet_section .cabinet_container .cabinet_slide img {
   width: 50%;
@@ -1229,7 +1229,7 @@ footer p a {
   }
   .cabinet_section .cabinet_container {
     padding: 2rem 13rem;
-    max-width: 1950px;
+    max-width: 1830px;
     margin: auto;
   }
   .cabinet_section .cabinet_container .cabinet_title {
@@ -1326,7 +1326,7 @@ footer p a {
 }
 .parcours_section .parcours_container {
   width: 100%;
-  margin: 6rem auto;
+  margin: 6rem auto 2rem;
   display: flex;
   max-width: 1600px;
   border-radius: 24px;
@@ -1360,9 +1360,15 @@ footer p a {
 }
 .parcours_section .parcours_container .parcours_description .parcours_texte {
   font-size: 16px;
-  margin: 1rem 0;
+  margin: 1rem 0 0;
   width: 100%;
   color: #4d4d4d;
+  padding: 0 0 0 0em;
+  list-style-position: inside;
+  list-style-type: circle;
+}
+.parcours_section .parcours_container .parcours_description .parcours_texte li {
+  margin: 0 0 1rem 0;
 }
 .parcours_section .parcours_container .parcours_description .parcours_buttons_container {
   display: flex;
@@ -1372,7 +1378,7 @@ footer p a {
   flex-wrap: wrap;
 }
 .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_secondary-button, .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button {
-  margin: 1.5rem 0 0 0;
+  margin: 1rem 0 0 0;
   padding: 16px 12px;
   border-radius: 8px;
   text-transform: uppercase;
@@ -1412,9 +1418,10 @@ footer p a {
   }
   .parcours_section .parcours_container {
     width: 80%;
-    margin: 8rem auto;
+    margin: 8rem auto 4rem;
     padding: 0;
     display: flex;
+    flex-direction: column;
     max-width: 1600px;
     border-radius: 24px;
   }
@@ -1422,22 +1429,24 @@ footer p a {
     border-radius: 24px;
     border-style: none;
     -o-object-fit: cover;
-       object-fit: cover;
-    width: 40%;
+    object-fit: cover;
+    width: 100%;
     max-height: 380px;
+    -o-object-position: 50% 37%;
+       object-position: 50% 37%;
   }
   .parcours_section .parcours_container .parcours_description {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 60%;
+    width: 100%;
     align-content: start;
-    padding: 0 2rem;
+    padding: 0;
     margin: 0;
   }
   .parcours_section .parcours_container .parcours_description .parcours_title {
     font-size: 32px;
-    margin: 0;
+    margin: 2rem 0 1rem 0;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 0.15rem;
@@ -1445,13 +1454,18 @@ footer p a {
   }
   .parcours_section .parcours_container .parcours_description .parcours_texte {
     font-size: 20px;
-    margin: 1rem 0;
+    margin: 0 0 1rem 0;
     width: 100%;
+    -webkit-hyphens: auto;
+            hyphens: auto;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_texte li {
+    margin: 0 0 1rem 0;
   }
   .parcours_section .parcours_container .parcours_description .parcours_buttons_container {
     display: flex;
-    justify-content: end;
-    align-items: end;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     flex-wrap: wrap;
   }
@@ -1469,7 +1483,7 @@ footer p a {
     border: solid 2px transparent;
     color: white;
     background-color: #995c54;
-    width: 100%;
+    width: 67%;
     order: 2;
   }
   .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_primary-button:hover {
@@ -1481,7 +1495,7 @@ footer p a {
     border: solid 2px #B3837D;
     color: #B3837D;
     background-color: #fff;
-    width: 100%;
+    width: 30%;
     order: 1;
   }
   .parcours_section .parcours_container .parcours_description .parcours_buttons_container .parcours_secondary-button:hover {
@@ -1499,7 +1513,8 @@ footer p a {
     margin: 10rem auto;
     padding: 0;
     display: flex;
-    max-width: 1600px;
+    flex-direction: row;
+    max-width: 1430px;
     border-radius: 24px;
   }
   .parcours_section .parcours_container img {
@@ -1508,7 +1523,7 @@ footer p a {
     -o-object-fit: cover;
        object-fit: cover;
     width: 40%;
-    max-height: 524px;
+    max-height: 100%;
   }
   .parcours_section .parcours_container .parcours_description {
     display: flex;
@@ -1529,10 +1544,13 @@ footer p a {
   }
   .parcours_section .parcours_container .parcours_description .parcours_texte {
     font-size: 20px;
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
     width: 100%;
     -webkit-hyphens: auto;
             hyphens: auto;
+  }
+  .parcours_section .parcours_container .parcours_description .parcours_texte li {
+    margin: 0 0 1rem 0;
   }
   .parcours_section .parcours_container .parcours_description .parcours_buttons_container {
     display: flex;
@@ -1992,6 +2010,9 @@ footer p a {
     padding: 0 2rem 0 0;
     text-align: justify;
     color: #4d4d4d;
+  }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_img {
+    width: 50%;
   }
 }
 :root {

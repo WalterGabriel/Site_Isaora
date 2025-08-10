@@ -402,6 +402,7 @@
       }
   
       .mon-parcours_text-box {
+       
   
         .mon-parcours_text-box_date {
           padding: 0 0 0 1rem;
@@ -423,6 +424,10 @@
           padding: 0 2rem 0 0;
           text-align: justify;
           color: $isa-black;
+        }
+
+        .mon-parcours_img {
+          width: 50%;
         }
   
       }

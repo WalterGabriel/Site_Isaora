@@ -9,7 +9,7 @@
 
   .parcours_container {
     width: 100%;
-    margin: 6rem auto;
+    margin: 6rem auto 2rem;
     display: flex;
     max-width: 1600px;
     border-radius: 24px;
@@ -49,9 +49,17 @@
 
       .parcours_texte {
         font-size: $paragraph-secondary;
-        margin: 1rem 0;
+        margin: 1rem 0 0;
         width: 100%;
         color: $isa-black;
+        padding: 0 0 0 0em;
+        list-style-position: inside;
+        list-style-type: circle;
+
+          li {
+            margin: 0 0 1rem 0;
+          }
+        
 
       }
 
@@ -65,7 +73,7 @@
 
 
         .parcours_secondary-button, .parcours_primary-button{
-          margin: 1.5rem 0 0 0;
+          margin: 1rem 0 0 0;
           padding: 16px 12px;
           border-radius: 8px;
           text-transform: uppercase;
@@ -128,9 +136,10 @@
 
     .parcours_container {
       width: 80%;
-      margin: 8rem auto;
+      margin: 8rem auto 4rem;
       padding: 0;
       display: flex;
+      flex-direction: column;
       max-width: 1600px;
       //box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.125);
       border-radius: 24px;
@@ -138,9 +147,11 @@
       img {
         border-radius: 24px;
         border-style: none;
+        -o-object-fit: cover;
         object-fit: cover;
-        width: 40%;
+        width: 100%;
         max-height: 380px;
+        object-position: 50% 37%;
         
       }
 
@@ -149,17 +160,17 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 60%;
+        width: 100%;
         align-content: start;
-        padding: 0 2rem;
+        padding: 0;
         margin: 0;
 
 
         .parcours_title{
           font-size: $h3;
-          margin: 0;
+          margin: 2rem 0 1rem 0;
           text-transform: uppercase;
-          font-weight: $regular;
+          font-weight: 400;
           letter-spacing: 0.15rem;
           line-height: 1.25em;
       
@@ -167,19 +178,21 @@
 
         .parcours_texte {
           font-size: $paragraph-lead;
-          margin: 1rem 0;
+          margin: 0 0 1rem 0;
           width: 100%;
+          hyphens: auto;
 
+          li {
+            margin: 0 0 1rem 0;
+          }
         }
 
         .parcours_buttons_container {
           display: flex;
-          justify-content: end;
-          align-items: end;
+          justify-content: space-between;
+          align-items: center;
           width: 100%;
           flex-wrap: wrap;
-
-
 
           .parcours_secondary-button, .parcours_primary-button{
             margin: 1rem 0 0 0;
@@ -201,7 +214,7 @@
             border: solid 2px transparent;
             color: white;
             background-color:$isa-rouge-medium;
-            width: 100%;
+            width: 67%;
             order: 2;
         
             
@@ -219,7 +232,7 @@
             border: solid 2px $isa-rouge-light;
             color: $isa-rouge-light;
             background-color: #fff;
-            width: 100%;
+            width: 30%;
             order: 1;
         
             &:hover {
@@ -256,7 +269,8 @@
       margin: 10rem auto;
       padding: 0;
       display: flex;
-      max-width: 1600px;
+      flex-direction: row;
+      max-width: 1430px;
       //box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.125);
       border-radius: 24px;
 
@@ -265,7 +279,7 @@
         border-style: none;
         object-fit: cover;
         width: 40%;
-        max-height: 524px;
+        max-height: 100%;
         
       }
 
@@ -292,9 +306,15 @@
 
         .parcours_texte {
           font-size: $paragraph-lead;
-          margin: 0 0 2rem 0;
+          margin: 0 0 1rem 0;
           width: 100%;
           hyphens: auto;
+
+
+
+          li {
+            margin: 0 0 1rem 0;
+          }
         }
 
         .parcours_buttons_container {
