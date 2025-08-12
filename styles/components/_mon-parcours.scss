@@ -3,19 +3,66 @@
 
 .mon-parcours_section {
 
-  h1 {
-
-    font-size:  $h2;
+    h2 {
+    margin: 1em 0 .5em 0;
+    padding: 0 0 0 .75em;
+    width: 100%;
+    max-width: 1600px;
+    font-size: $h3;
     text-transform: uppercase;
+    font-weight: $regular;
     letter-spacing: 0.15rem;
+    line-height: 1.25em;
+  }
+  .mon-parcours_container:nth-of-type(1) {
+    h1 {
+
+    font-size:  $h1;
+    font-family: "Playwrite ES", cursive;
+    font-style: normal;
+    font-weight: $extraLight;
+    
+
+    
     line-height: 1.25em;
 
     margin: 2rem 1rem 1rem;
+    }
+
+    img {
+      width: 90%;
+      border: 10px solid floralwhite;
+      border-radius: 12px;
+      
+      margin: 3em auto 0;
+      box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1019607843);
+      object-fit: cover;
+      box-sizing: border-box;
+    }
+    .mon-parcours_text-box {
+       width: 100%;
+
+
+       .mon-parcours_text-box_description {
+        padding: 0 1em;
+        font-family: "Playwrite ES", cursive;
+        font-style: normal;
+        font-weight: $regular;
+        text-align: left;
+        line-height: 2.5em;  
+        hyphens: none;
+        
+        
+      }
+    }
   }
 
   .mon-parcours_container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+
+
 
     //PAIRS DIFERENCES
     &:nth-of-type(2n) {
@@ -108,6 +155,11 @@
     }
 
     .mon-parcours_text-box {
+      width: calc(100% - 64px);
+
+             h3 {
+        font-size: $h3;
+       }
 
       .mon-parcours_text-box_date {
         padding: 0 0 0 1rem;
@@ -123,8 +175,14 @@
         hyphens: none;
       }
 
+      .mon-parcours_img {
+        width: 100%;
+        padding: 0 2rem 0 0;
+      }
+
       .mon-parcours_text-box_description{
         font-size: $paragraph-secondary;
+        line-height: 1.5em;
         hyphens: auto;
         padding: 0 2rem 0 0;
         text-align: justify;
@@ -143,24 +201,52 @@
 
   .mon-parcours_section {
 
-    h1 {
+    .mon-parcours_container:nth-of-type(1) {
+      h1 {
       font-size: $h1;
-      text-transform: uppercase;
-      letter-spacing: 0.15rem;
+      font-family: "Playwrite ES", cursive;
+      font-weight: $extraLight;
+      font-style: normal;
+
+     
       line-height: 1.25em;
   
-      width: 80%;
-      margin: 4rem 5rem 2rem 5rem;
+      width: 100%;
+      margin: 4rem 0 2rem 0;
       max-width: 768px;
+      
   
+      }
+
+      img { 
+        width: 40%;
+        margin: 3em 0 0;
+      }
+
+      .mon-parcours_text-box {
+        width: 60%;
+        padding: 0 0 0 2em;
+
+        .mon-parcours_text-box_description {
+
+          padding: 0;
+
+
+        }
+      }
+
+
+
+
     }
 
     .mon-parcours_container {
       display: flex;
       flex-direction: row;
-      width: 80%;
-      margin: 0 5rem;
+      width: 100%;
+      margin: auto;
       max-width: 768px;
+
   
       //PAIRS DIFERENCES
       &:nth-of-type(2n) {
@@ -290,26 +376,78 @@
 @media screen and (min-width:1440px ) {
 
   .mon-parcours_section {
+      h2 {
+        margin: 0 auto 1em;
+        width: 75%;
+        font-size: $h3;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 0.15rem;
+        line-height: 1.25em;
+      }
 
-    h1 {
-      font-size: $h1;
-      text-transform: uppercase;
-      letter-spacing: 0.15rem;
-      line-height: 1.25em;
-  
-      width: 50%;
-      margin: 4rem 13rem 2rem 13rem;
-      max-width: 824px;
-  
+    .mon-parcours_container:nth-of-type(1) {
+
+      margin: 4em auto;
+
+      img {
+        width: 30%;
+        border: 10px solid floralwhite;
+        border-radius: 12px;
+        margin: 0;
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1019607843);
+        object-fit: cover;
+        box-sizing: content-box;
+      }
+      .mon-parcours_text-box {
+        width: 60%;
+        padding: 1em 0 0 3em;
+
+        h1 {
+          font-size: $h1;
+          font-family: "Playwrite ES", cursive;
+          font-weight: $extraLight;
+          font-style: normal;
+        
+          width: 50%;
+          margin: 0;
+          max-width: none
+    
+        }
+
+        .mon-parcours_text-box_description {
+          font-family: "Playwrite ES", cursive;
+          font-weight: 300;
+          font-style: normal;
+          width: 100%;
+          text-align: left;
+          margin: 1em 0 0 0;
+          padding: 0;
+
+          line-height: 3.2em;
+          -webkit-hyphens: none;
+          hyphens: none;
+
+
+        }
+
+      }
+
     }
 
-
     .mon-parcours_container {
+
+
+
       display: flex;
+      flex-wrap: wrap;
       flex-direction: row;
-      width: 50%;
-      margin: 0 13rem;
-      max-width: 824px;
+      width: 75%;
+      padding: 0;
+      max-width: 1600px;
+      margin: 0 auto;
+      box-sizing: border-box;
+
   
       //PAIRS DIFERENCES
       &:nth-of-type(2n) {
@@ -336,37 +474,27 @@
         .mon-parcours_text-box {
   
           .mon-parcours_text-box_date {
-            
+            order: 1;
           }
     
           .mon-parcours_text-box_titre {
-  
+            order: 2;
             color: $isa-vert-medium;
+          }
+
+          .mon-parcours_img {
+            margin: 1em 0 0 0;
+            padding: 0 0 0 3em;
+            order: 4 !important;
           }
     
           .mon-parcours_text-box_description{
-  
+            padding: 0;
+            order: 3;
           }
     
         }  
         
-        .mon-parcours_text-box {
-  
-          .mon-parcours_text-box_date {
-            
-            color: $isa-vert-medium;
-          }
-    
-          .mon-parcours_text-box_titre {
-  
-            color: $isa-vert-medium;
-          }
-    
-          .mon-parcours_text-box_description{
-            
-          }
-    
-        }
   
       }
   
@@ -402,32 +530,44 @@
       }
   
       .mon-parcours_text-box {
-       
+        display: flex;
+        width: calc(100% - 64px);
+        flex-wrap: wrap;
   
         .mon-parcours_text-box_date {
+          width: 100%;
           padding: 0 0 0 1rem;
           font-size: $paragraph-secondary;
+          order: 1;
         }
   
         .mon-parcours_text-box_titre {
+          width: 100%;
           text-transform: uppercase;
           font-weight: $regular;
           margin: 0;
           color: $isa-rouge-medium;
           padding: 0 2rem 0 0;
           hyphens: none;
+          order: 2;
         }
   
         .mon-parcours_text-box_description{
           font-size: $paragraph;
           hyphens: auto;
-          padding: 0 2rem 0 0;
+          
           text-align: justify;
           color: $isa-black;
+          width: 60%;
+          order: 4;
         }
 
         .mon-parcours_img {
-          width: 50%;
+          margin: 1em 0 0 0;
+          padding: 0 3em 0 0;
+
+          width: 30%;
+          order: 3;
         }
   
       }

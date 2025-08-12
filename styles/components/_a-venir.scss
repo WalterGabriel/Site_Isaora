@@ -2,6 +2,48 @@
 @import '../abstract/variables';
 
 
+.header_infos_box  {
+  ul {
+    padding: 1em 4em;
+    li {
+      margin: 1em 0;
+      a {
+        display: flex;
+      }
+    }
+
+
+  }
+
+
+  
+}
+
+#tel::before, #email::before, #adress::before, #insta::before  {
+  width: 32px;
+  padding: 0 12px 0 0;
+  
+}
+
+#tel::before{
+  content: url("../assets/icons/list/tel-icon.svg");
+}
+
+#email::before {
+  content: url("../assets/icons/list/email-icon.svg");
+}
+#adress::before {
+  content: url("../assets/icons/list/adress-icon.svg");
+}
+
+#insta::before {
+  content: url("../assets/icons/list/istagram-icon.svg");
+}
+
+
+
+
+
 .main_a-venir {
   display: block;
   transform: ease 200ms;
@@ -44,12 +86,15 @@
 
       .normal_text {
         font-size: $paragraph-lead;
+        font-weight: $bold;
+        letter-spacing: 0.03em;
       }
 
       .little_text {
         font-size: 16px;
         margin: 0;
         text-transform: uppercase;
+        font-weight: $medium;
 
       }
       
@@ -135,12 +180,15 @@
 
         .normal_text {
           font-size: $paragraph-lead;
+          font-weight: $bold;
+          letter-spacing: 0.03em;
         }
 
         .little_text {
           font-size: 16px;
           margin: 0;
           text-transform: uppercase;
+          font-weight: $medium;
 
         }
 
@@ -224,13 +272,14 @@
   
         .normal_text {
           font-size: $paragraph-lead;
+          font-weight: $medium;
         }
 
         .little_text {
           font-size: 16px;
           margin: 0;
           text-transform: uppercase;
-
+          font-weight: $medium;
         }
         
       }
