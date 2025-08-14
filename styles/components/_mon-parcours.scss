@@ -4,16 +4,18 @@
 .mon-parcours_section {
 
     h2 {
-    margin: 1em 0 .5em 0;
-    padding: 0 0 0 .75em;
-    width: 100%;
+    margin: 1em auto 0.5em;
+    padding: 0;
+    width: 82%;
     max-width: 1600px;
-    font-size: $h3;
+    font-size: $h4;
     text-transform: uppercase;
-    font-weight: $regular;
-    letter-spacing: 0.15rem;
+    letter-spacing: .15em;
     line-height: 1.25em;
+    font-weight: $regular;
   }
+
+
   .mon-parcours_container:nth-of-type(1) {
     h1 {
 
@@ -26,7 +28,8 @@
     
     line-height: 1.25em;
 
-    margin: 2rem 1rem 1rem;
+    margin: 2rem auto 1rem;
+    width: 90%;
     }
 
     img {
@@ -41,13 +44,16 @@
     }
     .mon-parcours_text-box {
        width: 100%;
+       align-content: start;
 
 
        .mon-parcours_text-box_description {
-        padding: 0 1em;
+        padding: 0;
+        margin: 0 auto;
+        width: 90%;
         font-family: "Playwrite ES", cursive;
         font-style: normal;
-        font-weight: $regular;
+        font-weight: 300;
         text-align: left;
         line-height: 2.5em;  
         hyphens: none;
@@ -157,18 +163,17 @@
     .mon-parcours_text-box {
       width: calc(100% - 64px);
 
-             h3 {
-        font-size: $h3;
-       }
-
       .mon-parcours_text-box_date {
+        margin: 1em 0 .3em 0;
         padding: 0 0 0 1rem;
-        font-size: $paragraph-small;
+        font-size: $paragraph-secondary;
+        font-weight: $bold;
       }
 
       .mon-parcours_text-box_titre {
-        text-transform: uppercase;
-        font-weight: $regular;
+        font-size: $h6;
+
+        font-weight: $medium;
         margin: 0;
         color: $isa-rouge-medium;
         padding: 0 2rem 0 0;
@@ -184,7 +189,7 @@
         font-size: $paragraph-secondary;
         line-height: 1.5em;
         hyphens: auto;
-        padding: 0 2rem 0 0;
+        padding: 0 2em 1em 0;
         text-align: justify;
         color: $isa-black;
       }
@@ -200,6 +205,16 @@
 @media screen and (min-width:768px ) {
 
   .mon-parcours_section {
+      h2 {
+        margin: 2em auto 1em;
+        width: 87%;
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: $regular;
+        letter-spacing: 0.15rem;
+        line-height: 1.25em;
+        max-width: 712px;
+      }
 
     .mon-parcours_container:nth-of-type(1) {
       h1 {
@@ -228,8 +243,8 @@
         padding: 0 0 0 2em;
 
         .mon-parcours_text-box_description {
-
-          padding: 0;
+          width: 100%;
+          padding: 0 1em 0 0;
 
 
         }
@@ -340,24 +355,15 @@
   
       .mon-parcours_text-box {
   
-        .mon-parcours_text-box_date {
-          padding: 0 0 0 1rem;
-          font-size: $paragraph-secondary;
-        }
   
         .mon-parcours_text-box_titre {
-          text-transform: uppercase;
-          font-weight: $regular;
-          margin: 0;
-          color: $isa-rouge-medium;
-          padding: 0 2rem 0 0;
-          hyphens: none;
+          font-size:$h5 ;
         }
   
         .mon-parcours_text-box_description{
           font-size: $paragraph;
           hyphens: auto;
-          padding: 0 2rem 0 0;
+          padding: 0 2em 1em 0;
           text-align: justify;
           color: $isa-black;
         }
@@ -377,18 +383,20 @@
 
   .mon-parcours_section {
       h2 {
-        margin: 0 auto 1em;
+        padding: 0 0 0 1em;
+        margin: 2em auto .5em;
         width: 75%;
-        font-size: $h3;
+        max-width: 1600px;
+        font-size: $h2;
         text-transform: uppercase;
-        font-weight: 400;
+        font-weight: $regular;
         letter-spacing: 0.15rem;
         line-height: 1.25em;
       }
 
     .mon-parcours_container:nth-of-type(1) {
 
-      margin: 4em auto;
+      margin: 2em auto 0;
 
       img {
         width: 30%;
@@ -543,12 +551,9 @@
   
         .mon-parcours_text-box_titre {
           width: 100%;
-          text-transform: uppercase;
-          font-weight: $regular;
           margin: 0;
-          color: $isa-rouge-medium;
-          padding: 0 2rem 0 0;
-          hyphens: none;
+          color: #995c54;
+          padding: 0 4em 0 0;
           order: 2;
         }
   
