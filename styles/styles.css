@@ -326,6 +326,7 @@ header .header_nav--active ul li a:hover {
 }
 .hero_container .hero_description .hero_title {
   font-size: 36px;
+  font-weight: 400;
   margin: 0 0 1rem 0;
   text-transform: uppercase;
   letter-spacing: 0;
@@ -790,7 +791,7 @@ footer p a {
 .motifs_container .motifs_title {
   text-align: left;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
   color: #78443d;
   text-transform: uppercase;
   margin: 0;
@@ -911,7 +912,7 @@ footer p a {
   .motifs_container .motifs_title {
     text-align: center;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 300;
     color: #78443d;
     text-transform: uppercase;
     margin: 0;
@@ -1030,7 +1031,7 @@ footer p a {
   .motifs_container .motifs_title {
     text-align: center;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 300;
     color: #78443d;
     text-transform: uppercase;
     margin: 0;
@@ -1159,7 +1160,7 @@ footer p a {
   text-transform: uppercase;
   margin: 0;
   padding: 2rem 1rem;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.1rem;
 }
 .cabinet_section .cabinet_container .cabinet_carousel {
@@ -1217,7 +1218,7 @@ footer p a {
     text-transform: uppercase;
     margin: 2rem 0;
     padding: 0;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 0.1rem;
   }
   .cabinet_section .cabinet_container .cabinet_carousel {
@@ -1276,7 +1277,7 @@ footer p a {
     text-transform: uppercase;
     margin: 2rem 0;
     padding: 0;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 0.1rem;
   }
   .cabinet_section .cabinet_container .cabinet_carousel {
@@ -1853,7 +1854,7 @@ footer p a {
   font-size: 52px;
   font-family: "Playwrite ES", cursive;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.25em;
   margin: 2rem auto 1rem;
   width: 90%;
@@ -1942,8 +1943,11 @@ footer p a {
           hyphens: none;
 }
 .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_img {
-  width: 100%;
-  padding: 0 2rem 0 0;
+  width: 90%;
+  padding: 0;
+  border-radius: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_description {
   font-size: 16px;
@@ -1969,7 +1973,7 @@ footer p a {
   .mon-parcours_section .mon-parcours_container:nth-of-type(1) h1 {
     font-size: 52px;
     font-family: "Playwrite ES", cursive;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
     line-height: 1.25em;
     width: 100%;
@@ -2032,6 +2036,9 @@ footer p a {
   .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_titre {
     font-size: 24px;
   }
+  .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_img {
+    width: 95%;
+  }
   .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_description {
     font-size: 18px;
     -webkit-hyphens: auto;
@@ -2073,7 +2080,7 @@ footer p a {
   .mon-parcours_section .mon-parcours_container:nth-of-type(1) .mon-parcours_text-box h1 {
     font-size: 52px;
     font-family: "Playwrite ES", cursive;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
     width: 50%;
     margin: 0;
@@ -2116,11 +2123,11 @@ footer p a {
   }
   .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_text-box .mon-parcours_img {
     margin: 1em 0 0 0;
-    padding: 0 0 0 3em;
+    padding: 0;
     order: 4 !important;
   }
   .mon-parcours_section .mon-parcours_container:nth-of-type(2n) .mon-parcours_text-box .mon-parcours_text-box_description {
-    padding: 0;
+    padding: 0 2em 0 0;
     order: 3;
   }
   .mon-parcours_section .mon-parcours_container .mon-parcours_graphics {
@@ -2145,6 +2152,7 @@ footer p a {
   .mon-parcours_section .mon-parcours_container .mon-parcours_text-box {
     display: flex;
     width: calc(100% - 64px);
+    margin: 0 0 3em 0;
     flex-wrap: wrap;
   }
   .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_date {
@@ -2164,15 +2172,16 @@ footer p a {
     font-size: 18px;
     -webkit-hyphens: auto;
             hyphens: auto;
+    padding: 0 0 0 2em;
     text-align: justify;
     color: #4d4d4d;
-    width: 60%;
+    width: 50%;
     order: 4;
   }
   .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_img {
     margin: 1em 0 0 0;
-    padding: 0 3em 0 0;
-    width: 30%;
+    padding: 0;
+    width: 40%;
     order: 3;
   }
 }
