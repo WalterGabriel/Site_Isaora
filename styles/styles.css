@@ -3,6 +3,10 @@
   font-weight: 400;
   color: #995c54;
 }
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-weight: 400;
+  word-break: keep-all;
+}
 
 .material-symbols-rounded {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
@@ -12,6 +16,10 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #995c54;
+}
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-weight: 400;
+  word-break: keep-all;
 }
 
 .material-symbols-rounded {
@@ -48,6 +56,10 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #995c54;
+}
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-weight: 400;
+  word-break: keep-all;
 }
 
 .material-symbols-rounded {
@@ -302,6 +314,10 @@ header .header_nav--active ul li a:hover {
   font-weight: 400;
   color: #995c54;
 }
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-weight: 400;
+  word-break: keep-all;
+}
 
 .material-symbols-rounded {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
@@ -338,7 +354,7 @@ header .header_nav--active ul li a:hover {
 }
 .hero_container .hero_description .hero_paragraph {
   font-size: 16px;
-  color: #4d4d4d;
+  color: #3f3f3f;
   margin: 0 0 2rem 0;
   -webkit-hyphens: auto;
           hyphens: auto;
@@ -515,6 +531,10 @@ header .header_nav--active ul li a:hover {
   font-weight: 400;
   color: #995c54;
 }
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-weight: 400;
+  word-break: keep-all;
+}
 
 .material-symbols-rounded {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
@@ -532,7 +552,7 @@ header .header_nav--active ul li a:hover {
 
 #tel::before, #email::before, #adress::before, #insta::before {
   width: 32px;
-  padding: 0 12px 0 0;
+  padding: 0 0 0 0;
 }
 
 #tel::before {
@@ -753,6 +773,10 @@ header .header_nav--active ul li a:hover {
   font-weight: 400;
   color: #995c54;
 }
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-weight: 400;
+  word-break: keep-all;
+}
 
 .material-symbols-rounded {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
@@ -778,6 +802,10 @@ footer p a {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #995c54;
+}
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-weight: 400;
+  word-break: keep-all;
 }
 
 .material-symbols-rounded {
@@ -863,7 +891,7 @@ footer p a {
   transition: opacity ease-in-out 300ms;
   border-radius: 0 0 24px 24px;
   background-color: transparent;
-  color: #4d4d4d;
+  color: #3f3f3f;
 }
 .motifs_container .motifs_card-box .motifs_card .motifs_description:hover {
   opacity: 100%;
@@ -978,7 +1006,7 @@ footer p a {
     opacity: 100%;
     transition: opacity ease-in-out 300ms;
     border-radius: 0 24px 24px 0;
-    color: #4d4d4d;
+    color: #3f3f3f;
     background-color: transparent;
   }
   .motifs_container .motifs_card-box .motifs_card .motifs_description:hover {
@@ -1091,7 +1119,7 @@ footer p a {
     z-index: 1;
     border-radius: 24px;
     text-align: center;
-    color: #4d4d4d;
+    color: #3f3f3f;
     position: relative;
     flex-direction: column;
     justify-content: space-between;
@@ -1141,6 +1169,10 @@ footer p a {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #995c54;
+}
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-weight: 400;
+  word-break: keep-all;
 }
 
 .material-symbols-rounded {
@@ -1356,6 +1388,10 @@ footer p a {
   font-weight: 400;
   color: #995c54;
 }
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-weight: 400;
+  word-break: keep-all;
+}
 
 .material-symbols-rounded {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
@@ -1402,7 +1438,7 @@ footer p a {
   font-size: 16px;
   margin: 1rem 0 0;
   width: 100%;
-  color: #4d4d4d;
+  color: #3f3f3f;
   padding: 0 0 0 0em;
   list-style-position: inside;
   list-style-type: circle;
@@ -1639,6 +1675,10 @@ footer p a {
   font-weight: 400;
   color: #995c54;
 }
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-weight: 400;
+  word-break: keep-all;
+}
 
 .material-symbols-rounded {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
@@ -1679,7 +1719,7 @@ footer p a {
   font-size: 16px;
   padding: 0;
   width: 100%;
-  color: #4d4d4d;
+  color: #3f3f3f;
 }
 .contact_section .contact_container .contact_message-box .contact_texte .contact_reseaux {
   color: #995c54 !important;
@@ -1834,6 +1874,10 @@ footer p a {
   font-weight: 400;
   color: #995c54;
 }
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-weight: 400;
+  word-break: keep-all;
+}
 
 .material-symbols-rounded {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 40;
@@ -1942,6 +1986,15 @@ footer p a {
   -webkit-hyphens: none;
           hyphens: none;
 }
+.mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_titre ul {
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+.mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_text-box_titre ul li {
+  font-weight: 400;
+  font-size: 16px;
+}
 .mon-parcours_section .mon-parcours_container .mon-parcours_text-box .mon-parcours_img {
   width: 90%;
   padding: 0;
@@ -1956,7 +2009,7 @@ footer p a {
           hyphens: auto;
   padding: 0 2em 1em 0;
   text-align: justify;
-  color: #4d4d4d;
+  color: #3f3f3f;
 }
 
 @media screen and (min-width: 768px) {
@@ -2045,7 +2098,7 @@ footer p a {
             hyphens: auto;
     padding: 0 2em 1em 0;
     text-align: justify;
-    color: #4d4d4d;
+    color: #3f3f3f;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -2174,7 +2227,7 @@ footer p a {
             hyphens: auto;
     padding: 0 0 0 2em;
     text-align: justify;
-    color: #4d4d4d;
+    color: #3f3f3f;
     width: 50%;
     order: 4;
   }
@@ -2189,6 +2242,10 @@ footer p a {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #995c54;
+}
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-weight: 400;
+  word-break: keep-all;
 }
 
 .material-symbols-rounded {
@@ -2208,8 +2265,14 @@ footer p a {
   padding: 0 1rem;
   margin: 2rem 0 0;
 }
+.osteopathie_section .osteopathie_container .osteopathie_text-box h3 {
+  margin: 0;
+  padding: 0 0 0 1em;
+}
 .osteopathie_section .osteopathie_container .osteopathie_text-box .osteopathie_text-box_titre {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   -webkit-hyphens: none;
           hyphens: none;
   margin: 0;
@@ -2232,6 +2295,14 @@ footer p a {
   flex-wrap: wrap;
   align-items: center;
   cursor: pointer;
+}
+.osteopathie_section .osteopathie_container .osteopathie_text-box .osteopathie_text-box_accordeon-item h3 {
+  font-weight: 400;
+  padding: 0;
+  color: #99392c;
+}
+.osteopathie_section .osteopathie_container .osteopathie_text-box .osteopathie_text-box_accordeon-item h3:hover {
+  font-weight: 500;
 }
 .osteopathie_section .osteopathie_container .osteopathie_text-box .osteopathie_text-box_accordeon-item:hover {
   color: #99392c;
@@ -2257,12 +2328,17 @@ footer p a {
   -webkit-hyphens: auto;
           hyphens: auto;
   text-align: justify;
-  color: #4d4d4d;
+  color: #3f3f3f;
 }
 .osteopathie_section .osteopathie_container .osteopathie_text-box ul {
-  color: #545454;
+  color: #3f3f3f;
   line-height: 1.75rem;
   margin: 0;
+}
+.osteopathie_section .osteopathie_container .osteopathie_text-box ul li {
+  padding: 0 0 0.5em 1em;
+  list-style-position: inside;
+  text-indent: -1em;
 }
 
 @media screen and (min-width: 768px) {
@@ -2335,12 +2411,15 @@ footer p a {
     -webkit-hyphens: auto;
             hyphens: auto;
     text-align: justify;
-    color: #4d4d4d;
+    color: #3f3f3f;
   }
   .osteopathie_section .osteopathie_container .osteopathie_text-box ul {
-    color: #545454;
+    color: #3f3f3f;
     line-height: 1.75rem;
     margin: 0;
+  }
+  .osteopathie_section .osteopathie_container .osteopathie_text-box ul li {
+    padding: 0 0 0.5em 0;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -2349,13 +2428,13 @@ footer p a {
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     line-height: 1.25em;
-    width: 50%;
-    margin: 4rem 13rem 2rem 13rem;
+    width: 75%;
     max-width: 824px;
+    margin: 4rem auto 2rem;
   }
   .osteopathie_section .osteopathie_container {
-    width: 50%;
-    margin: 0 13rem;
+    width: 75%;
+    margin: 0 auto;
     max-width: 824px;
   }
   .osteopathie_section .osteopathie_container .osteopathie_text-box {
@@ -2401,30 +2480,37 @@ footer p a {
     overflow: hidden;
     transition: max-height 0.3s ease;
   }
-  .osteopathie_section .osteopathie_container .osteopathie_text-box .osteopathie_text-box_accordeon-item .material-symbols-rounded {
+  .osteopathie_section .osteopathie_container .osteopathie_text-box .osteopathie_text-box_accordeon-item .osteopathie_text-box_accordeon-contenu .material-symbols-rounded {
     transition: transform 0.3s ease;
   }
-  .osteopathie_section .osteopathie_container .osteopathie_text-box .osteopathie_text-box_accordeon-item .material-symbols-rounded.rotate {
+  .osteopathie_section .osteopathie_container .osteopathie_text-box .osteopathie_text-box_accordeon-item .osteopathie_text-box_accordeon-contenu .material-symbols-rounded.rotate {
     transform: rotate(90deg); /* Rotate the icon when expanded */
   }
-  .osteopathie_section .osteopathie_container .osteopathie_text-box .osteopathie_text-box_description {
+  .osteopathie_section .osteopathie_container .osteopathie_text-box .osteopathie_text-box_accordeon-item .osteopathie_text-box_description {
     font-size: 18px;
-    padding: 0 1rem;
     -webkit-hyphens: auto;
             hyphens: auto;
     text-align: justify;
-    color: #4d4d4d;
+    color: #3f3f3f;
+    padding: 0 0 0 3.5em;
+    margin: 0 0 1em 0;
   }
   .osteopathie_section .osteopathie_container .osteopathie_text-box ul {
-    color: #545454;
     line-height: 1.75rem;
     margin: 0;
+  }
+  .osteopathie_section .osteopathie_container .osteopathie_text-box ul li {
+    padding: 0 0 1em 1em;
   }
 }
 :root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #995c54;
+}
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-weight: 400;
+  word-break: keep-all;
 }
 
 .material-symbols-rounded {
@@ -2470,7 +2556,7 @@ footer p a {
   -webkit-hyphens: auto;
           hyphens: auto;
   text-align: left;
-  color: #4d4d4d;
+  color: #3f3f3f;
 }
 .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description h3 {
   text-align: left;
@@ -2480,6 +2566,7 @@ footer p a {
           hyphens: none;
 }
 .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description .consultation_text-box_img {
+  border-radius: 12px;
   width: 100%;
   height: 324px;
   -o-object-fit: cover;
@@ -2514,7 +2601,7 @@ footer p a {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  color: #4d4d4d;
+  color: #3f3f3f;
   line-height: 1.75rem;
   margin: 1rem 0;
   padding: 0 0 0 1.75rem;
@@ -2605,7 +2692,7 @@ footer p a {
     -webkit-hyphens: auto;
             hyphens: auto;
     text-align: left;
-    color: #4d4d4d;
+    color: #3f3f3f;
     display: flex;
     flex-wrap: wrap;
     align-items: start;
@@ -2657,7 +2744,7 @@ footer p a {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    color: #4d4d4d;
+    color: #3f3f3f;
     line-height: 1.75rem;
     margin: 1rem 0;
     padding: 0 0 0 1.75rem;
@@ -2709,13 +2796,13 @@ footer p a {
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     line-height: 1.25em;
-    width: 50%;
+    width: 75%;
     max-width: 824px;
-    margin: 4rem 13rem 2rem 13rem;
+    margin: 4rem auto 2rem;
   }
   .consultation_section .consultation_container {
-    width: 50%;
-    margin: 0 13rem;
+    width: 75%;
+    margin: 0 auto;
     max-width: 824px;
   }
   .consultation_section .consultation_container .consultation_text-box {
@@ -2748,7 +2835,7 @@ footer p a {
     -webkit-hyphens: auto;
             hyphens: auto;
     text-align: left;
-    color: #4d4d4d;
+    color: #3f3f3f;
     display: flex;
     flex-wrap: wrap;
     align-items: start;
@@ -2763,8 +2850,8 @@ footer p a {
     margin: 3rem 0 0.5rem 0;
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description .consultation_text-box_img {
-    width: 65%;
-    height: 324px;
+    width: 45%;
+    height: 300px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -2791,7 +2878,7 @@ footer p a {
   }
   .consultation_section .consultation_container .consultation_text-box .consultation_text-box_description .consultation_text-box_text {
     font-size: 18px;
-    width: 35%;
+    width: 50%;
     padding: 0 0 2rem 2rem;
     margin: 0;
   }
@@ -2800,7 +2887,7 @@ footer p a {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    color: #4d4d4d;
+    color: #3f3f3f;
     line-height: 1.75rem;
     margin: 1rem 0;
     padding: 0 0 0 1.75rem;

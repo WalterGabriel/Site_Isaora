@@ -20,8 +20,18 @@
       padding: 0 1rem;
       margin: 2rem 0 0;
 
+      h3 {
+
+        margin: 0;
+        padding: 0 0 0 1em;
+
+      }
+
       .osteopathie_text-box_titre{
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
         hyphens: none;
         margin: 0;
 
@@ -50,8 +60,20 @@
         align-items: center;
         cursor: pointer;
 
+
+        h3 {
+          font-weight: $regular;
+          padding: 0;
+          color: $highlight-hover;
+          
+            &:hover {
+              font-weight: $medium;
+            }
+          }
+
         &:hover {
           color: $highlight-hover;
+          
         }
 
         .osteopathie_text-box_list-icon{
@@ -67,6 +89,8 @@
           max-height: 0;
           overflow: hidden;
           transition: max-height 0.3s ease;
+
+
         }
 
         .material-symbols-rounded {
@@ -91,9 +115,15 @@
       }
 
       ul {
-        color: #545454;
+        color: $isa-black;
         line-height: 1.75rem;
         margin: 0;
+        li {
+          padding: 0 0 .5em 1em;
+          list-style-position: inside;
+          text-indent: -1em;
+
+        }
       }
     }
   }
@@ -162,6 +192,7 @@
     
           &:hover {
             color: $highlight-hover;
+            
           }
     
           .osteopathie_text-box_list-icon{
@@ -199,9 +230,14 @@
         }
     
         ul {
-          color: #545454;
+          color: $isa-black;
           line-height: 1.75rem;
           margin: 0;
+
+          li{
+            padding: 0 0 .5em 0;
+
+          }
         }
       }
     }
@@ -223,15 +259,15 @@
       letter-spacing: 0.15rem;
       line-height: 1.25em;
       
-      width: 50%;
-      margin: 4rem 13rem 2rem 13rem;
+      width: 75%;
       max-width: 824px;
+      margin: 4rem auto 2rem;
     }
   
     .osteopathie_container {
 
-      width: 50%;
-      margin: 0 13rem;
+      width: 75%;
+      margin: 0 auto;
       max-width: 824px;
 
 
@@ -270,9 +306,12 @@
           flex-wrap: wrap;
           align-items: center;
           cursor: pointer;
+
+
     
           &:hover {
             color: $highlight-hover;
+            
           }
     
           .osteopathie_text-box_list-icon{
@@ -288,7 +327,7 @@
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.3s ease;
-          }
+
     
           .material-symbols-rounded {
             transition: transform 0.3s ease;
@@ -302,17 +341,27 @@
     
         .osteopathie_text-box_description {
           font-size: $paragraph;
-          padding: 0 1rem;
           hyphens: auto;
         
           text-align: justify;
           color: $isa-black;
+          padding: 0 0 0 3.5em;
+            
+          margin: 0 0 1em 0;
+
+
+          }
+          
         }
     
         ul {
-          color: #545454;
           line-height: 1.75rem;
           margin: 0;
+
+          li {
+            padding: 0 0 1em 1em;
+          
+          }
         }
       }
     }
